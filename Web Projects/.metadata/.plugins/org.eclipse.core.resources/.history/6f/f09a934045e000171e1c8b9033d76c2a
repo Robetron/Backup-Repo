@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+	<bean id="accHolder" class="com.psl.beans.AccountHolder">
+		<property name="name" value="Vishal Robertson" />
+		<property name="accountNumber" value="100" />
+		<property name="balance" value="15000" />
+	</bean>
+
+	<bean id="transaction1" class="com.psl.beans.Transaction">
+		<property name="tNo" value="1" />
+		<property name="type" value="withdraw" />
+		<property name="status" value="success" />
+		<property name="balance" value="10000.00" />
+		<property name="holder" ref="accHolder" />
+	</bean>
+	<bean id="transaction2" class="com.psl.beans.Transaction">
+		<property name="tNo" value="2" />
+		<property name="type" value="deposit" />
+		<property name="status" value="success" />
+		<property name="balance" value="20000.00" />
+		<property name="holder" ref="accHolder" />
+	</bean>
+	<bean id="transaction3" class="com.psl.beans.Transaction">
+		<property name="tNo" value="3" />
+		<property name="type" value="withdraw" />
+		<property name="status" value="faliue" />
+		<property name="balance" value="50000.00" />
+		<property name="holder" ref="accHolder" />
+	</bean>
+	
+	<bean id="service" class="com.psl.service.BankService">
+		<property name="dao" ref="dao" />
+	</bean>
+
+	<bean id="dao" class="com.psl.dao.BankDAOImpl">
+		<property name="template" ref="template" />
+	</bean>
+
+	<bean id="template" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<bean id="dataSource"
+		class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
+		<property name="url" value="jdbc:mysql://localhost:3306/bankdb" />
+		<property name="username" value="root" />
+		<property name="password" value="root" />
+	</bean>
+
+</beans>

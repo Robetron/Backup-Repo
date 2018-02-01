@@ -1,0 +1,31 @@
+package com.psl.client;
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.psl.beans.Transaction;
+import com.psl.service.BankService;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("SpringConfig.xml");
+		BankService bankService = context.getBean("service", BankService.class);
+		Transaction t1 = context.getBean("transaction1", Transaction.class);
+		Transaction t2 = context.getBean("transaction2", Transaction.class);
+
+		System.out.println(bankService.fetchBalance("100"));
+		bankService.newTransaction(t1);
+		bankService.newTransaction(t2);
+		List<Transaction> miniStatement = bankService.creatMiniStatement("100");
+
+		for (Iterator<Transaction> iterator = miniStatement.iterator(); iterator.hasNext();) {
+			Transaction t = (Transaction) iterator.next();
+			System.out.println(t.miniStatementEntry());
+		}
+	}
+}
+ 

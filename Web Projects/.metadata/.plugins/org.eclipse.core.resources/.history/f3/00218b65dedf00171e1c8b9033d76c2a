@@ -1,0 +1,48 @@
+package com.psl.dao;
+
+import java.util.List;
+import org.springframework.jdbc.core.JdbcTemplate;
+import com.psl.beans.Transaction;
+
+public class BankDAOImpl implements IBankDAO {
+	private JdbcTemplate template;
+
+	public JdbcTemplate getTemplate() {
+		return template;
+	}
+
+	public void setTemplate(JdbcTemplate template) {
+		this.template = template;
+	}
+
+	@Override
+	public void newTransaction(Transaction t) {
+		// TODO Auto-generated method stub
+
+		// getJdbcTemplate().update("INSERT INTO employee VALUES(" + t.getId() +
+		// ", '" + e.getName() + "', '" + e.getEmail() + "');");
+		System.out.println("Inserted " + t);
+	}
+
+	@Override
+	public List<Transaction> creatMiniStatement(String accountNumber) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double fetchBalance(String accountNumber) {
+		return template.queryForObject(
+				"SELECT accBalance FROM accounts WHERE accNo = "
+						+ accountNumber, Double.class);
+		/*
+		 * Transaction transaction = (Transaction)
+		 * template.query("SELECT accBalance FROM accounts WHERE accNo = "+
+		 * accountNumber, new RowMapper<Transaction>(){
+		 * 
+		 * @Override public Transaction mapRow(ResultSet rs, int rowNum) throws
+		 * SQLException { return new Transaction(0, null, null, rs.getDouble(4)
+		 * ,null); } }); return transaction.getBalance();
+		 */
+	}
+}

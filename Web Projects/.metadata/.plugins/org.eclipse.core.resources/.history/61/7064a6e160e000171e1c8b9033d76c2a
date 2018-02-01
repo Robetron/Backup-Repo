@@ -1,0 +1,63 @@
+package com.psl;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
+import org.springframework.core.annotation.Order;
+
+@Aspect
+@Order(value=0)
+public class TicketCollector {
+	
+	//Declaring a point-cut without args
+	//@Pointcut(value="execution(* com.psl.Performer.perform(..))")
+	//Declaring a point-cut with args
+	@Pointcut(value="execution(* com.psl.Performer.perform(String,String)) && args(song,artist)")
+	public void pc1(String song, String artist) {
+		
+	}
+	
+	//@Before(value="pc1()")
+	public void switchOffMobile() {
+		System.out.println("Audience switches off Phone");
+	}
+	
+	//@Before(value="pc1(song, artist)")
+	public void takesSeat(String song, String artist) {
+		System.out.println("Audience takes Seats to listen to "+song+" created by "+artist);
+	}
+	//@AfterThrowing(value="pc1()")
+	public void demandRefund() {
+		System.out.println("Audience demand a Refund");
+	}
+	//@AfterReturning(value="pc1()")
+	public void applaud() {
+		System.out.println("Audience applause");
+	}
+	//@After(value="pc1()")
+	public void returnHome() {
+		System.out.println("Audience returns Home");
+	}
+	//Around Advice
+	@Around(value="pc1(song, artist)")
+	public void record(ProceedingJoinPoint joinPoint, String song, String artist) {
+		//Before
+		System.out.println("Audience take seats");
+		System.out.println("Audience switch off phones");
+		System.out.println("Start recording");
+		
+		//During
+		try {
+			joinPoint.proceed();		//Calling Performer.perform()
+			System.out.println("Audience applause");
+		} catch (Throwable e) {
+			e.printStackTrace();
+			System.out.println("Audience demand a Refund");
+		}
+		
+		//After
+		System.out.println("Stop recording");
+		System.out.println("Audience go home");
+	}
+}

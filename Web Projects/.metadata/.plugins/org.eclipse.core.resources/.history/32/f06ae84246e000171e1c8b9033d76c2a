@@ -1,0 +1,26 @@
+package com.psl.service;
+
+import java.util.List;
+import com.psl.beans.Transaction;
+import com.psl.dao.IBankDAO;
+
+public class BankService {
+	private IBankDAO dao;
+	public IBankDAO getDao() {
+		return dao;
+	}
+	public void setDao(IBankDAO dao) {
+		this.dao = dao;
+	}
+	public void newTransaction(Transaction t) {
+		dao.newTransaction(t);
+	}
+	public double fetchBalance(String accountNumber){
+		return dao.fetchBalance(accountNumber);
+	}
+	public List<Transaction> creatMiniStatement(String accountNumber) {
+		List<Transaction> t = dao.creatMiniStatement(accountNumber);
+		System.out.println(t);
+		return t;
+	}
+}

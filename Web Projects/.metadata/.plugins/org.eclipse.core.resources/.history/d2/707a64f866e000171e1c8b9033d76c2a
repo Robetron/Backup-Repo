@@ -1,0 +1,70 @@
+package com.psl;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
+
+@Aspect
+public class TicketCollector {
+	@Pointcut(value = "execution(* com.psl.Train.departFromSource(String,String)) && args(source,time)")
+	public void pc1(String source, String time) {
+
+	}
+
+	@Pointcut(value = "execution(* com.psl.Train.arriveAtDestination(String,String)) && args(destination,time)")
+	public void pc2(String destination, String time) {
+
+	}
+
+	public void checksTickets() {
+		System.out.println("TC collects tickets.");
+		collectsFine();
+	}
+
+	public void printsPassengerList() {
+		System.out.println("TC prints passenger list.");
+	}
+
+	public void checkPassengerList() {
+		System.out.println("TC checks passenger list.");
+	}
+
+	public void collectsFine() {
+		System.out.println("TC collects fine.");
+	}
+
+	public void depositFine() {
+		System.out.println("TC deposits fine at station.");
+	}
+
+	@Around(value = "pc1(source, time)")
+	public void doWork(ProceedingJoinPoint joinPoint, String source, String time) {
+		// Before
+		printsPassengerList();
+		// During
+		try {
+			joinPoint.proceed(); // Calling Performer.perform()
+		} catch (Throwable e) {
+			e.printStackTrace();
+			System.out.println("Audience demand a Refund");
+		}
+		// After
+		checksTickets();
+	}
+
+	@Around(value = "pc2(destination, time)")
+	public void finishWork(ProceedingJoinPoint joinPoint, String destination, String time) {
+		// Before
+		checkPassengerList();
+		// During
+		try {
+			joinPoint.proceed(); // Calling Performer.perform()
+		} catch (Throwable e) {
+			e.printStackTrace();
+			System.out.println("Audience demand a Refund");
+		}
+		// After
+		depositFine();
+	}
+}

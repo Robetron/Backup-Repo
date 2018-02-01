@@ -1,0 +1,48 @@
+package com.psl.dao;
+
+import java.util.List;
+import org.springframework.jdbc.core.JdbcTemplate;
+import com.psl.beans.Transaction;
+
+public class BankDAOImpl implements IBankDAO {
+	private JdbcTemplate template;
+
+	public JdbcTemplate getTemplate() {
+		return template;
+	}
+
+	public void setTemplate(JdbcTemplate template) {
+		this.template = template;
+	}
+
+	@Override
+	public void newTransaction(Transaction t) {
+		double currentBalance = fetchBalance(t.getHolder().getAccountNumber());
+		if(t.getType().equals("withdraw")){
+			if(t.getBalance() <= currentBalance){
+				double newBalance = currentBalance - t.getBalance();
+				template.update("INSERT INTO transactions VALUES(" + t.gettNo() + ", '" + t.getHolder().getAccountNumber() + "', '" + t.getType() + "', '"+t.getStatus()+"', "+newBalance+");");
+				template.update("UPDATE ACCOUNTS SET accBalance = '" + newBalance+"" + "' WHERE accNo = "+ t.getHolder().getAccountNumber());
+				System.out.println("Success");
+			}else{
+				System.out.println("Less Balance");
+			}
+		}else{
+			
+		}
+		System.out.println("Inserted " + t);
+	}
+
+	@Override
+	public List<Transaction> creatMiniStatement(String accountNumber) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double fetchBalance(String accountNumber) {
+		return template.queryForObject(
+				"SELECT accBalance FROM accounts WHERE accNo = "
+						+ accountNumber, Double.class);
+	}
+}

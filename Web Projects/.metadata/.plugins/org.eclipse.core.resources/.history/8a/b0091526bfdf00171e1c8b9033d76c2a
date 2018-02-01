@@ -1,0 +1,20 @@
+package com.psl.service;
+
+import com.psl.beans.Employee;
+import com.psl.dao.IEmployeeDAO;
+
+public class EmployeeService {
+	private IEmployeeDAO dao;
+	
+	public IEmployeeDAO getDao() {
+		return dao;
+	}
+
+	public void setDao(IEmployeeDAO dao) {
+		this.dao = dao;
+	}
+
+	public void createEmployee(Employee emp) {
+		dao.createEmployee(emp);
+	}
+}

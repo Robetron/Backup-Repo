@@ -1,0 +1,17 @@
+package com.psl;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+
+@RunWith(Parameterized.class)
+public class OperationsTest3 {
+	private ArrayList<Integer> inputList;
+	private int input;
+	private ArrayList<Integer> resultList;
+	private Operations operation;
+}

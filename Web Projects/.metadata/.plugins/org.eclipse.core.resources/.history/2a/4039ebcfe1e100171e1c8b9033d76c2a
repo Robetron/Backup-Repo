@@ -1,0 +1,8 @@
+package com.psl.dao;
+
+import java.util.List;
+import com.psl.beans.Movie;
+
+public interface IMovieDAO {
+	List<Movie> getAllMovies(String movieName);
+}

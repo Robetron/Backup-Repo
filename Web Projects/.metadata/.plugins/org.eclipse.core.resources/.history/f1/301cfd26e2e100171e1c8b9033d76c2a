@@ -1,0 +1,27 @@
+package com.psl.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.psl.beans.Employee;
+import com.psl.beans.Movie;
+import com.psl.dao.IEmployeeDAO;
+import com.psl.dao.IMovieDAO;
+
+@Service
+public class MovieService {
+	
+	@Autowired
+	private IMovieDAO dao;
+	public IMovieDAO getDao() {
+		return dao;
+	}
+	public void setDao(IMovieDAO dao) {
+		this.dao = dao;
+	}
+	public List<Movie> getAllEmployees(String cityName) {
+		return dao.getAllMovies(cityName);
+	}
+}

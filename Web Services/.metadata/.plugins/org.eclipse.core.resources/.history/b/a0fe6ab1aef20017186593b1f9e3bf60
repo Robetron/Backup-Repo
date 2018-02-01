@@ -1,0 +1,57 @@
+package com.psl;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+
+import org.junit.Test;
+
+public class OperationsTest1 {
+
+	@Test
+	public void testSumOfListListOfInteger() {
+		Operations obj = new Operations();
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(10);
+		assertEquals("Test Passed adding 1 element", 10, obj.sumOfList(list));
+		list.add(20);
+		assertEquals("Test Passed adding 2 elements", 30, obj.sumOfList(list));
+	}
+
+	@Test
+	public void testSumOfListIntegerArray() {
+		Operations obj = new Operations();
+		assertEquals("Test Passed adding 1 element", 10, obj.sumOfList(1,2,3,4));
+	}
+
+	@Test
+	public void testProductOfListListOfInteger() {
+	//	fail("Not yet implemented");
+	}
+
+	@Test
+	public void testProductOfListIntegerArray() {
+	//	fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDivisibleByListOfIntegerInt() {
+	//	fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDivisibleByIntIntegerArray() {
+	//	fail("Not yet implemented");
+	}
+
+	@Test
+	public void testMultiplesOfListOfIntegerInt() {
+	//	fail("Not yet implemented");
+	}
+
+	@Test
+	public void testMultiplesOfIntIntegerArray() {
+	//	fail("Not yet implemented");
+	}
+
+}

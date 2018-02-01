@@ -1,0 +1,31 @@
+package com.psl.service;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import org.springframework.jdbc.core.RowMapper;
+
+import com.psl.beans.Employee;
+import com.psl.beans.Transaction;
+import com.psl.dao.IBankDAO;
+import com.psl.dao.IEmployeeDAO;
+
+public class BankService {
+	private IBankDAO dao;
+	public IBankDAO getDao() {
+		return dao;
+	}
+	public void setDao(IBankDAO dao) {
+		this.dao = dao;
+	}
+	public void newTransaction(Transaction t) {
+		dao.newTransaction(t);
+	}
+	public double fetchBalance(String accountNumber){
+		return dao.fetchBalance(accountNumber);
+	}
+	public List<Transaction> creatMiniStatement(String accountNumber) {
+		return dao.creatMiniStatement(accountNumber);
+	}
+}

@@ -1,0 +1,9 @@
+package com.psl.beans;
+
+public class AccountHolder {
+	private String accountNumber;
+	private String name;
+	private double balance;
+	
+	
+}

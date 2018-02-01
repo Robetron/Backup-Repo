@@ -1,0 +1,23 @@
+package com.psl;
+
+public class Performer {
+	public void practice() {
+		System.out.println("Performer practicing a Song");
+	}
+
+	public void perform() {
+		System.out.println("Performer performing a Song");
+	}
+
+	public void haveSupper() {
+		System.out.println("Performer having Supper");
+	}
+
+	public void greetsFans() {
+		System.out.println("Performer greets Fans");
+	}
+
+	public void returnHome() {
+		System.out.println("Performer returns Home");
+	}
+}

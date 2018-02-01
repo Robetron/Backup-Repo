@@ -1,0 +1,302 @@
+package RSAA;
+import java.io.*;
+import java.util.Scanner;
+public class RSAA {
+    private int ruleBox[][];
+    private char msgBox[][], keyBox[][];
+    private int ITR, numRules, numKeys, numBlocks;
+    private void ruleGen(String key){
+        numRules=0;
+        String binaryKey="";
+        byte[] bytes = key.getBytes(); //takes the key into array of byte        
+        
+        for(int i = 0; i<key.length(); i++)     //stored 8 bit representation of each character of key in binaryKey
+            binaryKey+=("00000000"+Integer.toBinaryString(bytes[i])).substring(Integer.toBinaryString(bytes[i]).length());       
+        
+        int[][] temp = new int[(key.length()/8)+1][16];  //temp stores hex equivalent of binaryKey      
+        for(int i=0,c=0,r=0;i<binaryKey.length(); i+=4) {   //group every 4bits of binaryKey to form a hex number & store in temp
+            if(c==16){r++;c=0;}
+            int x=0;
+            if(binaryKey.charAt(i)=='1')x+=8;
+            if(binaryKey.charAt(i+1)=='1')x+=4;
+            if(binaryKey.charAt(i+2)=='1')x+=2;
+            if(binaryKey.charAt(i+3)=='1')x+=1;
+            temp[r][c++]=x;
+            numRules=r+1;
+        }
+        ruleBox = new int[numRules][16];       //declare
+        for(int line=0; line<numRules; line++)
+            for(int pos=0; pos<16; pos++)
+                ruleBox[line][pos]=-1;           
+        for(int line=0; line<numRules; line++) {
+            int left=0,right=15;        
+            if(temp[line][left]==temp[line][right])ruleBox[line][temp[line][left]]=temp[line][left];
+            else{
+                ruleBox[line][temp[line][right]]=temp[line][left];
+                ruleBox[line][temp[line][left]]=temp[line][right];
+            }           
+            while(left<=right){
+                while(left<15 && ruleBox[line][temp[line][left]]!=-1)left++;
+                while(right>0 && ruleBox[line][temp[line][right]]!=-1)right--;
+                if(temp[line][left]==temp[line][right])ruleBox[line][temp[line][left]]=temp[line][left];
+                else{
+                    ruleBox[line][temp[line][right]]=temp[line][left];
+                    ruleBox[line][temp[line][left]]=temp[line][right];
+                }
+            }         
+            for(int pos=0; pos<16; pos++)
+                if(ruleBox[line][pos]==-1)ruleBox[line][pos]=pos;
+        }
+    }       //Generates rules to be used for encryption & decryption
+    private void addKey(int keyBoxNo){
+        for(int i=0;i<16;i++)
+            for(int j=0;j<16;j++)
+                if(msgBox[i][j]==keyBox[i+16*keyBoxNo][j])msgBox[i][j]='0';
+                else msgBox[i][j]='1';
+    }       //XOR keyBox[][] and msgBox[][]
+    private void fillKey(String key){
+        //generating no. of boxes for the key
+        if(key.length()>96)numKeys=4;
+        else if(key.length()>64)numKeys=3;
+        else if(key.length()>32)numKeys=2;
+        else numKeys=1;
+        
+
+        for(int i=key.length();i<32*numKeys;i++) // padding key with blank spaces 
+            key+=" ";
+        keyBox = new char[16*numKeys][16];   
+        
+        byte[] bytes = key.getBytes();
+        String binKey="";
+        for(int i = 0; i<key.length(); i++)     //stored 8 bit representation of each character of key in binKey
+            binKey+=("00000000"+Integer.toBinaryString(bytes[i])).substring(Integer.toBinaryString(bytes[i]).length());
+        
+        for(int i=0,c=0;i<16*numKeys;i++)
+            for(int j=0;j<16;j++)
+                keyBox[i][j]=binKey.charAt(c++);
+    }       //Stores Key into keyBox[][]
+    private void fillMessage(String text){
+        byte[] bytes = text.getBytes();
+        String binMesaege="";
+        for(int i = 0; i<text.length(); i++)        //stored 8 bit representation of each character of message in binMesage
+            binMesaege+=("00000000"+Integer.toBinaryString(bytes[i])).substring(Integer.toBinaryString(bytes[i]).length());
+        for(int i=0,c=0;i<16;i++)
+            for(int j=0;j<16;j++)
+                msgBox[i][j]=binMesaege.charAt(c++);
+    }   //Stores Plintext into msgBox[][] during encryption
+    private void fillCipher(String text) {
+        String replace="";
+        for(int i=0;i<64;i++) {   //converts hex ciphertext into equivalent binary form
+            if(text.charAt(i)=='0')replace+="0000";
+            else if(text.charAt(i)=='1')replace+="0001";
+            else if(text.charAt(i)=='2')replace+="0010";
+            else if(text.charAt(i)=='3')replace+="0011";
+            else if(text.charAt(i)=='4')replace+="0100";
+            else if(text.charAt(i)=='5')replace+="0101";
+            else if(text.charAt(i)=='6')replace+="0110";
+            else if(text.charAt(i)=='7')replace+="0111";
+            else if(text.charAt(i)=='8')replace+="1000";
+            else if(text.charAt(i)=='9')replace+="1001";
+            else if(text.charAt(i)=='a')replace+="1010";
+            else if(text.charAt(i)=='b')replace+="1011";
+            else if(text.charAt(i)=='c')replace+="1100";
+            else if(text.charAt(i)=='d')replace+="1101";
+            else if(text.charAt(i)=='e')replace+="1110";
+            else if(text.charAt(i)=='f')replace+="1111";
+        } 
+        //storing ciphertext into msgBox
+        for(int i=0,c=0;i<16;i++)
+            for(int j=0;j<16;j++)
+                msgBox[i][j]=replace.charAt(c++);
+    }  //Stores Cipher into msgBox[][] during decryption
+    private String encrypt(){
+        for(int itr=0;itr<ITR;itr++) {
+            for(int i=0;i<16;i+=2) {     //1st Stage
+                for(int j=0;j<16;j+=2) {
+                    int x = 0;
+                    if(msgBox[i][j]=='1')x+=8;
+                    if(msgBox[i][j+1]=='1')x+=4;
+                    if(msgBox[i+1][j]=='1')x+=2;
+                    if(msgBox[i+1][j+1]=='1')x+=1;  //x stores the position in the current rule
+                    x=ruleBox[itr%numRules][x];  //x stores the value at that position in the current rule 
+                    String replace=("0000"+Integer.toBinaryString(x)).substring(Integer.toBinaryString(x).length());
+                    msgBox[i][j]=replace.charAt(0);
+                    msgBox[i][j+1]=replace.charAt(1);
+                    msgBox[i+1][j]=replace.charAt(2);
+                    msgBox[i+1][j+1]=replace.charAt(3);
+                }
+            }
+            for(int i=1;i<16-1;i+=2) {     //2nd Stage
+                for(int j=1;j<16-1;j+=2) {
+                    int x = 0;
+                    if(msgBox[i][j]=='1')x+=8;
+                    if(msgBox[i][j+1]=='1')x+=4;
+                    if(msgBox[i+1][j]=='1')x+=2;
+                    if(msgBox[i+1][j+1]=='1')x+=1;
+                    x=ruleBox[itr%numRules][x];
+                    String replace=("0000"+Integer.toBinaryString(x)).substring(Integer.toBinaryString(x).length());
+                    msgBox[i][j]=replace.charAt(0);
+                    msgBox[i][j+1]=replace.charAt(1);
+                    msgBox[i+1][j]=replace.charAt(2);
+                    msgBox[i+1][j+1]=replace.charAt(3);
+                }
+            }
+            addKey(itr%numKeys);
+            System.out.println("ROUND "+itr+": "+getCipherText());
+        }
+        return getCipherText();
+    }               //encrypt using Forward BCA  
+    private String decrypt(){
+        for(int itr=ITR-1;itr>=0;itr--) {
+            addKey(itr%numKeys);
+            
+            for(int i=1;i<16-1;i+=2) {     //2nd Stage
+                for(int j=1;j<16-1;j+=2) {
+                    int x = 0;
+                    if(msgBox[i][j]=='1')x+=8;
+                    if(msgBox[i][j+1]=='1')x+=4;
+                    if(msgBox[i+1][j]=='1')x+=2;
+                    if(msgBox[i+1][j+1]=='1')x+=1;
+                    x=ruleBox[itr%numRules][x];
+                    String replace=("0000"+Integer.toBinaryString(x)).substring(Integer.toBinaryString(x).length());
+                    msgBox[i][j]=replace.charAt(0);
+                    msgBox[i][j+1]=replace.charAt(1);
+                    msgBox[i+1][j]=replace.charAt(2);
+                    msgBox[i+1][j+1]=replace.charAt(3);
+                }
+            }
+            for(int i=0;i<16;i+=2) {     //1st Stage
+                for(int j=0;j<16;j+=2) {
+                    int x = 0;
+                    if(msgBox[i][j]=='1')x+=8;
+                    if(msgBox[i][j+1]=='1')x+=4;
+                    if(msgBox[i+1][j]=='1')x+=2;
+                    if(msgBox[i+1][j+1]=='1')x+=1;
+                    x=ruleBox[itr%numRules][x];
+                    String replace=("0000"+Integer.toBinaryString(x)).substring(Integer.toBinaryString(x).length());
+                    msgBox[i][j]=replace.charAt(0);
+                    msgBox[i][j+1]=replace.charAt(1);
+                    msgBox[i+1][j]=replace.charAt(2);
+                    msgBox[i+1][j+1]=replace.charAt(3);
+                }
+            }
+            System.out.println("ROUND "+itr+": "+getOriginalText());
+        }
+        return getOriginalText();
+    }               //decrypt using Reverse BCA 
+    private String getCipherText() {
+        String op="",fop="";
+        for(int i=0;i<16;i++)
+            for(int j=0;j<16;j++)
+                op+=msgBox[i][j];
+        for(int i=0;i<64;i++) {
+            int val=0;
+            if(op.charAt(4*i)=='1')val+=8;
+            if(op.charAt(4*i+1)=='1')val+=4;
+            if(op.charAt(4*i+2)=='1')val+=2;
+            if(op.charAt(4*i+3)=='1')val+=1;
+            fop += Integer.toHexString(val);    //converts binary to hex   
+        }
+        return fop;
+    }                                           //Gets Ciphertext from msgBox[][] during encryption
+    private String getOriginalText() {
+        String op="",fop="";
+        for(int i=0;i<16;i++)
+            for(int j=0;j<16;j++)
+                op+=msgBox[i][j];
+        char c;
+        //converts msgBox to ASCII
+        for(int i=0;i<op.length();i+=8){
+            c=(char)Integer.parseInt(op.substring(i,i+8),2);
+            fop+=c;
+        }
+        return fop;
+    }      //Gets Plaintext from msgBox[][] during decryption
+    public String encryptText(String plaintext, String key){
+        String cipherText="";
+        ruleGen(key);                                           //used t generate rules
+        ITR=numRules;           
+        fillKey(key);                                           //Stores Key into keyBox[][]
+        msgBox = new char[16][16];
+        
+        if(plaintext.length()%32==0)numBlocks=plaintext.length()/32;
+        else numBlocks=(plaintext.length()/32)+1;
+        
+        while(plaintext.length()%32!=0){
+            plaintext+=" ";
+        }
+        for (int i = 0; i < numBlocks; i++) {
+            fillMessage(plaintext.substring(32*i, 32*i+32));    //filling 32 characters of plaintext
+            cipherText+=encrypt();                          //encrypt the plintext and stores in ciphertext
+        }
+        return cipherText;
+    }                                                           //Splits Plaintext into Blocks
+    public String decryptText(String ciphertext, String key){
+        String originalText="";
+        ruleGen(key);
+        ITR=numRules;
+        fillKey(key);
+        msgBox = new char[16][16];
+        if(ciphertext.length()%64==0)numBlocks=ciphertext.length()/64;
+        else numBlocks=(ciphertext.length()/64)+1;
+        while(ciphertext.length()%32!=0){
+            ciphertext+=" ";
+        }
+        for (int i = 0; i < numBlocks; i++) {
+            fillCipher(ciphertext.substring(64*i, 64*i+64));
+            originalText+=decrypt();
+        }
+        return originalText.trim();
+    }  //Splits Ciphertext into Blocks
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        Scanner in = new Scanner(System.in);
+        String plaintext,key,ciphertext;
+        int choice;
+        long start, end;   //for timer
+        RSAA obj = new RSAA();
+        do{
+            System.out.print("\n1:Encrypt Text  2:Decrypt Text  3:Exit  CHOICE: ");
+            choice=in.nextInt();
+            switch(choice){
+                case 1:
+                    System.out.print("PLAINTEXT:");
+                    plaintext=br.readLine();
+                    System.out.print("KEY:");
+                    key=br.readLine();
+                    start = System.currentTimeMillis();                             
+                    ciphertext=obj.encryptText(plaintext, key);
+                    end = System.currentTimeMillis();
+                    System.out.println("CIPHERTEXT:"+ciphertext);
+                    System.out.println("Encryption Time "+(end-start)+"ms.");
+                    break;
+                case 2:
+                    System.out.print("CIPHERTEXT:");
+                    ciphertext=br.readLine();
+                    System.out.print("KEY:");
+                    key=br.readLine();
+                    start = System.currentTimeMillis();                             
+                    plaintext=obj.decryptText(ciphertext, key);
+                    end = System.currentTimeMillis();
+                    System.out.println("ORIGINAL TEXT:"+plaintext);
+                    System.out.println("Decryption Time "+(end-start)+"ms.");
+                    break;
+                default:
+                    System.out.println("Re Enter a correct choice!");
+                    break;
+            }
+        }while(choice!=3);
+    }
+}
+//abcdefghijklmnopqrstuvwxyz1234567890!#$%^&*()_+-={}|\][;'":/.,<>?ABCDEFGHIJKLMNOPQRSTUVWXYZ
+/*
+private void displayMessageBox(){
+        for (int i = 0; i < 16; i++) {
+            for (int j = 0; j < 16; j++) {
+                System.out.print(msgBox[i][j]+" ");
+            }
+            System.out.println("");
+        }
+        System.out.println("");
+    }
+*/

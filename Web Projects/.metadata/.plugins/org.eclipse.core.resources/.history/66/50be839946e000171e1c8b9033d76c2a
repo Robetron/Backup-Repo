@@ -1,0 +1,67 @@
+package com.psl.dao;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
+
+import com.psl.beans.AccountHolder;
+import com.psl.beans.Transaction;
+
+public class BankDAOImpl implements IBankDAO {
+	private JdbcTemplate template;
+
+	public JdbcTemplate getTemplate() {
+		return template;
+	}
+
+	public void setTemplate(JdbcTemplate template) {
+		this.template = template;
+	}
+
+	@Override
+	public void newTransaction(Transaction t) {
+		double currentBalance = fetchBalance(t.getHolder().getAccountNumber());
+		if(t.getType().equals("withdraw")){
+			if(t.getBalance() <= currentBalance){
+				double newBalance = currentBalance - t.getBalance();
+				template.update("INSERT INTO transactions VALUES(0, '" + t.getHolder().getAccountNumber() + "', '" + t.getType() + "', 'success', "+newBalance+");");
+				template.update("UPDATE ACCOUNTS SET accBalance = '" + newBalance+"" + "' WHERE accNo = "+ t.getHolder().getAccountNumber());
+				System.out.println(t.getBalance()+" Withdrawal Successul");
+			}else{
+				template.update("INSERT INTO transactions VALUES(0, '" + t.getHolder().getAccountNumber() + "', '" + t.getType() + "', 'fail', "+currentBalance+");");
+				System.out.println("Less Balance");
+			}
+		}else{
+			if(t.getBalance() <= 0){
+				double newBalance = currentBalance + t.getBalance();
+				template.update("INSERT INTO transactions VALUES(0, '" + t.getHolder().getAccountNumber() + "', '" + t.getType() + "', 'success', "+newBalance+");");
+				template.update("UPDATE ACCOUNTS SET accBalance = '" + newBalance+"" + "' WHERE accNo = "+ t.getHolder().getAccountNumber());
+				System.out.println(t.getBalance()+" Deposit Successul");
+			}else{
+				template.update("INSERT INTO transactions VALUES(0, '" + t.getHolder().getAccountNumber() + "', '" + t.getType() + "', 'fail', "+currentBalance+");");
+				System.out.println("Invalid Amount Entered");
+			}
+		}
+	}
+
+	@Override
+	public List<Transaction> creatMiniStatement(String accountNumber) {
+		// TODO Auto-generated method stub
+		return template.query("SELECT * FROM transactions WHERE accNo='"+accountNumber+"' LIMIT 5", new RowMapper<Transaction>(){
+			@Override
+			public Transaction mapRow(ResultSet rs, int rowNum) throws SQLException {
+				return new Transaction(rs.getInt("tNo"), rs.getString("type"), rs.getString("status"), rs.getDouble("accNo"), new AccountHolder());
+			}
+		});
+	}
+
+	@Override
+	public double fetchBalance(String accountNumber) {
+		return template.queryForObject(
+				"SELECT accBalance FROM accounts WHERE accNo = "
+						+ accountNumber, Double.class);
+	}
+}

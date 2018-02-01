@@ -1,0 +1,9 @@
+package com.psl.service;
+
+import com.psl.beans.Employee;
+
+public class EmployeeService {
+	public void createEmployee(Employee emp) {
+		
+	}
+}

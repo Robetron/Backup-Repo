@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;RoomBookFinalWar&apos; to &apos;TechnothonProject&apos;&#x0D;&#x0A;- Original element: &apos;RoomBookFinalWar&apos;&#x0D;&#x0A;- Renamed element: &apos;RoomBookFinalWar&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;RoomBookFinalWar&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=RoomBookFinalWar" name="TechnothonProject" references="true" stamp="1516389066206" version="1.0"/>
+</session>

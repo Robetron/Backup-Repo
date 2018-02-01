@@ -1,0 +1,123 @@
+package com.psl;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Test {
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<Integer>();
+		list.add(1);
+		list.add(2);
+		list.add(3);
+		list.add(4);
+		list.add(5);
+		list.add(6);
+		list.add(7);
+		list.add(8);
+		list.add(9);
+		list.add(0);
+		list.add(15);
+		list.add(27);
+		list.add(45);
+		
+		System.out.println("Total in list is "+sumOfList(list));
+		System.out.println("Product in list is "+productOfList(list));
+		System.out.println("Odd in list "+oddNumbers(list));
+		System.out.println("Even in list "+evenNumbers(list));
+		System.out.println("Divisible by 3 in list "+divisibleBy(list,3));
+		System.out.println("Divisible by 3 and odd "+oddNumbers(divisibleBy(list,3)));
+		System.out.println("Divisible by 3 and even "+evenNumbers(divisibleBy(list,3)));
+		System.out.println("Multiples of 7"+multiplesOf(list,7));
+		foobar(list);
+		planets(list);
+	}
+	public static int sumOfList(List<Integer> list){
+		int returnSum=0;
+		for (Iterator<Integer> iterator = list.iterator(); iterator.hasNext();) {
+			returnSum+=(Integer) iterator.next();
+		}
+		return returnSum;
+	}
+	public static int productOfList(List<Integer> list){
+		int returnProduct=1;
+		for (Iterator<Integer> iterator = list.iterator(); iterator.hasNext();) {
+			returnProduct*=(Integer) iterator.next();
+		}
+		return returnProduct;
+	}
+	public static ArrayList<Integer> oddNumbers(List<Integer> list){
+		ArrayList<Integer> returnList = new ArrayList<Integer>();
+		for (Iterator<Integer> iterator = list.iterator(); iterator.hasNext();) {
+			Integer i = (Integer) iterator.next();
+			if(i%2!=0) returnList.add(i);
+		}
+		return returnList;
+	}
+	public static ArrayList<Integer> evenNumbers(List<Integer> list){
+		ArrayList<Integer> returnList = new ArrayList<Integer>();
+		for (Iterator<Integer> iterator = list.iterator(); iterator.hasNext();) {
+			Integer i = (Integer) iterator.next();
+			if(i%2==0) returnList.add(i);
+		}
+		return returnList;
+	}
+	public static ArrayList<Integer> divisibleBy(List<Integer> list, int divisor){
+		ArrayList<Integer> returnList = new ArrayList<Integer>();
+		for (Iterator<Integer> iterator = list.iterator(); iterator.hasNext();) {
+			Integer i = (Integer) iterator.next();
+			if(i>0 && i%divisor==0) returnList.add(i);
+		}
+		return returnList;
+	}
+	public static ArrayList<Integer> multiplesOf(List<Integer> list, int divisor){
+		ArrayList<Integer> returnList = new ArrayList<Integer>();
+		for (Iterator<Integer> iterator = list.iterator(); iterator.hasNext();) {
+			Integer i = (Integer) iterator.next();
+			if(i>0 && i%divisor==0) returnList.add(i);
+		}
+		return returnList;
+	}
+	
+	public static void foobar(List<Integer> list){
+		System.out.println("Foo-Bar Test");
+		ArrayList<Integer> listOf5 = divisibleBy(list, 5);
+		ArrayList<Integer> listOf3 = divisibleBy(list, 3);
+		for(int i= 0; i<=100;i++){
+			boolean flag = false;
+			if(listOf3.contains(i)){
+				System.out.print("foo ");
+				flag = true;
+			}
+			if(listOf5.contains(i)){
+				System.out.print("bar ");
+				flag = true;
+			}
+			if(!flag)System.out.print(i);
+			System.out.println();
+		}
+	}
+	public static void planets(List<Integer> list){
+		System.out.println("Planet Test");
+		ArrayList<Integer> listOf3 = divisibleBy(list, 3);
+		ArrayList<Integer> nosOf5 = divisibleBy(list, 5);
+		ArrayList<Integer> nosOf9 = divisibleBy(list, 9);
+		for(int i= 0; i<=100;i++){
+			boolean flag = false;
+			if(listOf3.contains(i)){
+				System.out.print("Earth ");
+				flag = true;
+			}
+			if(nosOf5.contains(i)){
+				System.out.print("Jupiter ");
+				flag = true;
+			}
+			if(nosOf9.contains(i)){
+				System.out.print("Pluto ");
+				flag = true;
+			}
+			if(!flag)System.out.print(i);
+			System.out.println();
+		}
+	}
+}

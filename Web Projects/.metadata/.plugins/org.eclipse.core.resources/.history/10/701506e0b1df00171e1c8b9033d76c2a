@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+	<bean class="com.psl.Train" id="train" lazy-init="true">
+		<constructor-arg value="Mapusa" />
+		<constructor-arg value="Goa" />
+		<constructor-arg value="403403" />
+	</bean>
+	<bean class="com.psl.Ticket" id="ticket">
+		<property name="city" value="Mapusa" />
+		<property name="state" value="Goa" />
+		<property name="zip" value="403403" />
+	</bean>
+	<bean class="com.psl.Passenger" id="passenger">
+		<property name="city" value="Mapusa" />
+		<property name="state" value="Goa" />
+		<property name="zip" value="403403" />
+	</bean>
+	<context:component-scan base-package="com.psl"/>
+</beans>

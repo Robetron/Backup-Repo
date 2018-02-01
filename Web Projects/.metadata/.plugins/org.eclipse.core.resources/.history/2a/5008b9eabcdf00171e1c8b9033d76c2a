@@ -1,0 +1,29 @@
+package com.psl.dao;
+
+import java.util.List;
+
+import com.psl.beans.Employee;
+
+public class EmployeeDAOImpl implements IEmployeeDAO{
+
+	@Override
+	public void createEmployee(Employee e) {
+		
+	}
+
+	@Override
+	public List<Employee> getAllEmployees() {
+		return null;
+	}
+
+	@Override
+	public void updateEmployee(int id, String name) {
+		
+	}
+
+	@Override
+	public void deleteEmployee(int id) {
+		
+	}
+
+}

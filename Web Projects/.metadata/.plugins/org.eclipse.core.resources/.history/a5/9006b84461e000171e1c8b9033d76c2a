@@ -1,0 +1,16 @@
+package com.psl;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainClass {
+	public static void main(String[] args) throws Exception {
+		ApplicationContext context = new ClassPathXmlApplicationContext("SpringConfig.xml");
+		TicketCollector tc = (TicketCollector) context.getBean("ticket-collector");
+		//p.practice();
+		tc.
+		//p.greetsFans();
+		//p.returnHome();
+		//p.haveSupper();
+	}
+}

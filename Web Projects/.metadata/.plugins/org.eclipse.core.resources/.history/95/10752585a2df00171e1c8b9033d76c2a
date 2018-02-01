@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+	<bean class="com.psl.Employee" id="employee" lazy-init="true"
+		autowire="constructor">
+		<constructor-arg name="id" value="1" />
+		<constructor-arg name="name" value="Vishal S. R." />
+		
+		<!-- 
+		<property name="id" value="1" />
+		<property name="name" value="Vishal S. R." /> -->
+		<!-- <property name="address" ref="address" /> -->
+	</bean>
+
+	<bean class="com.psl.Address" id="address" init-method="myInit"
+		destroy-method="myDestroy" primary="false">
+		<property name="city" value="Moira" />
+		<property name="state" value="Goa" />
+		<property name="zip" value="403507" />
+	</bean>
+	
+	<bean class="com.psl.Address" id="addressOther" init-method="myInit"
+		destroy-method="myDestroy" autowire-candidate="true" primary="true">
+		<property name="city" value="Aldona" />
+		<property name="state" value="Goa" />
+		<property name="zip" value="403508" />
+	</bean>
+	
+	<bean class="com.psl.MyCustomProcessor"/>
+</beans>
+
+<!-- <bean class="com.psl.Address" id="address" abstract="true"> <property 
+	name="city" value="Panjim" /> <property name="state" value="Goa." /> <property 
+	name="zip" value="403507" /> </bean> <bean class="com.psl.Address2" id="address2" 
+	parent="address"> <property name="landmark" value="Church" /> </bean> <bean 
+	class="com.psl.Address" id="address" lazy-init="true" > <constructor-arg 
+	value="Moira" /> <constructor-arg value="Goa" /> <property name="zip" value="403507"/> 
+	</bean> -->

@@ -1,0 +1,7 @@
+127.0.0.1 - - [17/Dec/2017:20:57:16 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [17/Dec/2017:20:57:17 +0530] "GET /MovieTicketBooking_MVC/WEB-INF/pages/home.jsp HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [17/Dec/2017:20:57:45 +0530] "GET /MovieTicketBooking_MVC/WEB-INF/pages/home.jsp HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [17/Dec/2017:20:57:45 +0530] "GET /MovieTicketBooking_MVC/WEB-INF/pages/home.jsp HTTP/1.1" 404 949
+127.0.0.1 - - [17/Dec/2017:21:01:38 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [17/Dec/2017:21:01:39 +0530] "GET /MovieTicketBooking_MVC/ HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [17/Dec/2017:21:01:45 +0530] "GET /MovieTicketBooking_MVC/home HTTP/1.1" 404 949

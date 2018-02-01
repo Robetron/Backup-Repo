@@ -1,0 +1,18 @@
+package com.psl.beans;
+
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.Size;
+
+import org.hibernate.validator.constraints.Email;
+
+public class Movie {
+	private int id;
+	private String movie;
+	private String city;
+
+	public Movie() {
+	}
+
+	
+}

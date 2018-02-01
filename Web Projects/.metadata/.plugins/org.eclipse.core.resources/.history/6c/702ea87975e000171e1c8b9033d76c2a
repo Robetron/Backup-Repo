@@ -1,0 +1,68 @@
+package com.psl;
+
+import java.util.Date;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
+
+@Aspect
+public class OnlinePortal {
+	long start=0, end=0;
+	@Pointcut(value = "execution(* com.psl.User.browseItem(String)) && args(item)")
+	public void pc1(String item) {
+
+	}
+	@Pointcut(value = "execution(* com.psl.User.addToCart(String)) && args(item)")
+	public void pc2(String item) {
+
+	}
+	@Pointcut(value = "execution(* com.psl.User.placeOrder(..))")
+	public void pc3(String item) {
+
+	}
+	@After(value = "pc1(item)")
+	public void browsing(ProceedingJoinPoint joinPoint, String item) {
+		// Before
+		// During
+		try {
+			joinPoint.proceed(); 
+			System.out.println("Browsing "+item);
+		} catch (Throwable e) {
+			e.printStackTrace();
+		}
+		// After
+		start=new Date().getTime();
+	}
+	
+	@Around(value = "pc2(item)")
+	public void suggestions(ProceedingJoinPoint joinPoint, String item) {
+		// Before
+		System.out.println("");
+		// During
+		try {
+			joinPoint.proceed(); 
+		} catch (Throwable e) {
+			e.printStackTrace();
+		}
+		// After
+
+	}
+
+	@Around(value = "pc3()")
+	public void vouchers(ProceedingJoinPoint joinPoint) {
+		// Before
+
+		// During
+		try {
+			joinPoint.proceed(); 
+		} catch (Throwable e) {
+			e.printStackTrace();
+		}
+		// After
+		end=new Date().getTime();
+		System.out.println();
+	}
+}

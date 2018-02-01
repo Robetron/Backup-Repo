@@ -1,0 +1,32 @@
+package com.psl.service;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import org.springframework.jdbc.core.RowMapper;
+
+import com.psl.beans.Employee;
+import com.psl.dao.IEmployeeDAO;
+
+public class BankService {
+	private IBankDAO dao;
+	public IEmployeeDAO getDao() {
+		return dao;
+	}
+	public void setDao(IEmployeeDAO dao) {
+		this.dao = dao;
+	}
+	public void createEmployee(Employee emp) {
+		dao.createEmployee(emp);
+	}
+	public void updateEmployee(int id, String name) {
+		dao.updateEmployee(id, name);
+	}
+	public void deleteEmployee(int id) {
+		dao.deleteEmployee(id);
+	}
+	public List<Employee> getAllEmployees() {
+		return dao.getAllEmployees();
+	}
+}

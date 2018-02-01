@@ -1,0 +1,71 @@
+package com.psl.beans;
+
+public class Transaction {
+	private int tNo;
+	private String type;
+	private String status;
+	private double balance;
+	private AccountHolder holder;
+
+	public Transaction() {
+	}
+
+	public Transaction(int tNo, String type, String status, double balance,
+			AccountHolder holder) {
+		this.tNo = tNo;
+		this.type = type;
+		this.status = status;
+		this.balance = balance;
+		this.holder = holder;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+
+	public int gettNo() {
+		return tNo;
+	}
+
+	public void settNo(int tNo) {
+		this.tNo = tNo;
+	}
+
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public AccountHolder getHolder() {
+		return holder;
+	}
+
+	public void setHolder(AccountHolder holder) {
+		this.holder = holder;
+	}
+
+	@Override
+	public String toString() {
+		return "Transaction [tNo=" + tNo + ", type=" + type + ", status="
+				+ status + ", balance=" + balance + ", holder=" + holder + "]";
+	}
+	
+	public String miniStatementEntry() {
+		return tNo + "\t" + type + "\t"+ status + "\t" + balance;
+	}
+}

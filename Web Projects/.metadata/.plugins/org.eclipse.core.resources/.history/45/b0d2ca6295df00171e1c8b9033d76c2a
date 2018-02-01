@@ -1,0 +1,21 @@
+package com.psl;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Client {
+	public static void main(String[] args) {
+		// Initialize Spring Container
+		
+		// 1) If file is on Server
+		// ApplicationContext context = new FileSystemXmlApplicationContext("C:\Users\Administrator\Desktop\VSR\Web Projects\HelloWorld\src\SpringConfig.xml");
+				
+		// 2) If file isn't in Project Folder
+		// ApplicationContext context = new XmlWebApplicationContext("SpringConfig.xml");
+		
+		// 3) If file is in Project Folder
+		ApplicationContext context = new ClassPathXmlApplicationContext("SpringConfig.xml");
+		Employee e = (Employee) context.getBean("employee");
+		System.out.println(e.toString());
+	}
+}

@@ -1,0 +1,9 @@
+package com.psl.beans;
+
+public class Booking {
+	private int id;
+	private String movie;
+	private String city;
+	private String hallName;
+	private int tickets;
+}

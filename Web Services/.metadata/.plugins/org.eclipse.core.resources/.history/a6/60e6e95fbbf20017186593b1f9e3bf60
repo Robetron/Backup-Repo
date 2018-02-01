@@ -1,0 +1,11 @@
+package com.psl;
+
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
+
+@RunWith(Suite.class)
+@SuiteClasses({OperationsTest1.class, OperationsTest2.class})
+public class TestSuite {
+
+}

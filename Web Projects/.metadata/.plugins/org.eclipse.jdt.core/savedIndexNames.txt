@@ -1,0 +1,16 @@
+INDEX VERSION 1.127+C:\Users\Administrator\Desktop\VSR\Web Projects\.metadata\.plugins\org.eclipse.jdt.core
+3533027972.index
+9067425.index
+3924426388.index
+2380175872.index
+4001643149.index
+3210799454.index
+2575501851.index
+2666450434.index
+2005756727.index
+71385214.index
+2945971393.index
+132620216.index
+1784993578.index
+924671522.index
+2852134436.index

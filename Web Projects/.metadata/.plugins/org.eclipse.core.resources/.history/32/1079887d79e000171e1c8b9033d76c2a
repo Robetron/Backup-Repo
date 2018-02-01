@@ -1,0 +1,27 @@
+package com.psl;
+
+public class User {
+	public void enterPortal() {
+		System.out.println("Enter Online Portal.");
+	}
+
+	public void exitPostal() {
+		System.out.println("Exit Online Portal.");
+	}
+
+	public void browseItem(String item) {
+		System.out.println("Broswing " + item + ".");
+	}
+
+	public void addToCart(String item) {
+		System.out.println("Added " + item + " to cart.");
+	}
+
+	public void removeFromCard(String item) {
+		System.out.println("Removed " + item + " from cart.");
+	}
+
+	public void placeOrder() {
+		System.out.println("Order successfully placed.");
+	}
+}

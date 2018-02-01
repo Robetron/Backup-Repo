@@ -1,0 +1,44 @@
+package com.psl;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+
+import org.junit.Test;
+
+public class OperationsTest1 {
+
+	@Test
+	public void testSumOfListListOfInteger() {
+		Operations obj = new Operations();
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(10);
+		assertEquals("Test Passed for 1 element", 10, obj.sumOfList(list));
+		list.add(20);
+		assertEquals("Test Passed for 2 elements", 30, obj.sumOfList(list));
+	}
+
+	@Test
+	public void testSumOfListIntegerArray() {
+		Operations obj = new Operations();
+		assertEquals("Test Passed for 3 elements", 600, obj.sumOfList(10,20,30));
+		assertEquals("Test Passed for 4 element", 10, obj.sumOfList(1,2,3,4));
+	}
+
+	@Test
+	public void testProductOfListListOfInteger() {
+		Operations obj = new Operations();
+		ArrayList<Integer> list = new ArrayList<Integer>();
+		list.add(10);
+		assertEquals("Test Passed for 1 element", 10, obj.productOfList(list));
+		list.add(20);
+		assertEquals("Test Passed for 2 elements", 200, obj.productOfList(list));
+	}
+
+	@Test
+	public void testProductOfListIntegerArray() {
+		Operations obj = new Operations();
+		assertEquals("Test Passed for 4 elements", 24, obj.productOfList(1,2,3,4));	
+		assertEquals("Test Passed for 6 elements", 4800, obj.productOfList(1,2,3,4,10,20));	
+		}
+}

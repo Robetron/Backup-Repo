@@ -1,0 +1,46 @@
+package com.psl;
+
+import java.util.Date;
+
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+
+@Aspect
+public class OnlinePortal {
+	long start, end;
+
+	@Pointcut(value = "execution(* com.psl.User.browseItem(String)) && args(item)")
+	public void pc1(String item) {
+
+	}
+
+	@Pointcut(value = "execution(* com.psl.User.addToCart(String)) && args(item)")
+	public void pc2(String item) {
+
+	}
+
+	@Pointcut(value = "execution(* com.psl.User.placeOrder(..))")
+	public void pc3() {
+
+	}
+
+	@After(value = "pc1(item)")
+	public void browsing(String item) {
+		start = new Date().getTime();
+	}
+
+	@Before(value = "pc2(item)")
+	public void suggestions(String item) {
+		System.out.println("Related items: Pillow Cover, Rugs, Mats.");
+	}
+
+	@After(value = "pc3()")
+	public void vouchers() {
+		end = new Date().getTime();
+		System.out.println("Awarded Voucher of Rs.1000/- to your Profile.");
+		System.out.println("Time taken to Order: " + ((end - start) / 1000)
+				+ "sec.");
+	}
+}

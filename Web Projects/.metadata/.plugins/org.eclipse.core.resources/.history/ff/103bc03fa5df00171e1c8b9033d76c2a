@@ -1,0 +1,98 @@
+package com.psl;
+
+import org.springframework.beans.BeansException;
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.beans.factory.BeanFactoryAware;
+import org.springframework.beans.factory.BeanNameAware;
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.beans.factory.config.BeanPostProcessor;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.ApplicationContextAware;
+import org.springframework.stereotype.Component;
+
+@Component("employee")
+public class Employee implements BeanNameAware, ApplicationContextAware, InitializingBean, DisposableBean, BeanFactoryAware {
+	
+	@Value(value="18")
+	private int id;
+	@Value(value="Moira")
+	private String name;
+	@Autowired //Default byType
+	@Qualifier("address2")
+	private Address address;
+
+	public Employee() {
+		System.out.println("Employee: Default Constructor");
+	}
+
+	public Employee(int id, String name, Address address) {
+		System.out.println("Employee: Paramatrized Constructor");
+		this.id = id;
+		this.name = name;
+		this.address = address;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		System.out.println("Employee: Setter of ID");
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		System.out.println("Employee: Setter of Name");
+		this.name = name;
+	}
+
+	public Address getAddress() {
+		return address;
+	}
+
+	public void setAddress(Address address) {
+		System.out.println("Employee: Setter of Address");
+		this.address = address;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee [id=" + id + ", name=" + name + ", address=" + address
+				+ "]";
+	}
+
+	@Override
+	public void setApplicationContext(ApplicationContext arg0)
+			throws BeansException {
+		System.out.println("Employee: setApplicationContext Param:" + arg0);
+	}
+
+	@Override
+	public void setBeanName(String arg0) {
+		System.out.println("Employee: setBeanName Param:" + arg0);
+	}
+
+	@Override
+	public void afterPropertiesSet() throws Exception {
+		System.out.println("Employee: afterPropertiesSet");
+	}
+
+	@Override
+	public void destroy() throws Exception {
+		System.out.println("Employee: destroy");
+	}
+
+	@Override
+	public void setBeanFactory(BeanFactory arg0) throws BeansException {
+		System.out.println("Employee: setBeanFactory");
+	}
+
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.1.xsd">
+
+	<bean id="performer" class="com.psl.Performer" />
+	<bean id="audience" class="com.psl.Audience" />
+	
+	<aop:config>
+		<aop:aspect ref="audience">
+			<aop:before method="takesSeat" pointcut="execution(* com.psl.Performer.perform(..))"/>
+			<aop:before method="switchOffMobile" pointcut="execution(* com.psl.Performer.perform(..))"/>
+			<aop:after method="applaud" pointcut="execution(* com.psl.Performer.perform(..))"/>
+			<aop:after method="returnHome" pointcut="execution(* com.psl.Performer.returnHome(..))"/>
+			<!-- AspectJ expression language syntax -->
+			<!-- execution() is a designator -->
+			
+			<aop:afterReturn method="applaud" pointcut="execution(* com.psl.Performer.greetsFans(..))"/>
+		</aop:aspect>
+	</aop:config>
+</beans>

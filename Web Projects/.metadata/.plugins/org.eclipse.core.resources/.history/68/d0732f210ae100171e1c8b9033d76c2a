@@ -1,0 +1,19 @@
+package com.psl.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+//		Path is http://localhost:8080/SpringMVC Demo/home
+//		Servlet context path: http://localhost:8080/SpringMVC Demo
+//		URL pattern: /home or /employee/home
+
+@Controller
+public class EmployeeController {
+	
+	@RequestMapping(value="/home", method=RequestMethod.GET)
+	public String showHomepage(Model model) {
+		System.out.println("In EmployeeController.showHomepage()");
+		return "home";
+	}
+}

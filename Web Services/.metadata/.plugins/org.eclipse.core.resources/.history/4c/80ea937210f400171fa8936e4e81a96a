@@ -1,0 +1,96 @@
+
+/* 
+ You can use System.out.println for debugging purposes, e.g.
+ System.out.println("this is a debug message");
+ */
+
+import java.util.*;
+
+public class EndToEndPaths {
+
+	public static int getNoOfPaths(int m, int n, int p, int[] numbers) {
+
+		/*
+		 * Write your code here Do not write System.out.println here or any
+		 * other printing statements Your code may get 0 marks if you do not
+		 * follow above instruction.
+		 */
+
+		// build matrix
+
+		int[][] buildArray = new int[m][n];
+		for (int i = 0; i < m; i++) {
+			for (int j = 0; j < n; j++) {
+				buildArray[i][j] = 0;
+			}
+		}
+
+		for (int i = 0; i < numbers.length; i += 2) {
+			buildArray[numbers[i]][numbers[i + 1]] = -1;
+		}
+		
+		return countDP(buildArray,m,n);
+	}
+
+	public static int countDP(int[][] arrA, int m, int n) {
+		int result[][] = arrA;
+
+		for (int i = 1; i < m; i++) {
+			for (int j = 1; j < n; j++) {
+				if (result[i][j] != -1) {
+					result[i][j] = 0;
+					if (result[i - 1][j] > 0)
+						result[i][j] += result[i - 1][j];
+					if (result[i][j - 1] > 0)
+						result[i][j] += result[i][j - 1];
+				}
+			}
+		}
+
+		return result[m - 1][n - 1];
+	}
+//	public static int countDP(int[][] arrA, int m, int n) {
+//		int result[][] = arrA;
+//
+//		for (int i = 1; i < result.length; i++) {
+//			for (int j = 1; j < result.length; j++) {
+//				if (result[i][j] != -1) {
+//					result[i][j] = 0;
+//					if (result[i - 1][j] > 0)
+//						result[i][j] += result[i - 1][j];
+//					if (result[i][j - 1] > 0)
+//						result[i][j] += result[i][j - 1];
+//				}
+//			}
+//		}
+//
+//		return result[arrA.length - 1][arrA.length - 1];
+//	}
+	public int count(int[][] arrA, int row, int col) {
+		// base case
+		// check if last row OR column is reached since after that only one path
+		if (row == arrA.length - 1 && col == arrA.length - 1) {
+			return 1;
+		}
+		int left = 0;
+		int down = 0;
+		if (row != arrA.length - 1 && arrA[row + 1][col] != -1) {
+			left = count(arrA, row + 1, col);
+		}
+		if (col != arrA.length - 1 && arrA[row][col + 1] != -1) {
+			down = count(arrA, row, col + 1);
+		}
+		return left + down;
+	}
+
+	public static void main(String args[]) {
+		/*
+		 * You can use Console input as well with the help of Scanner or
+		 * BufferedReader classes. Please provide input data in Input box on
+		 * right side of window.
+		 */
+		int m = 4, n = 3, p = 2;
+		int numbers[] = { 2, 0, 2, 2 };
+		System.out.println(getNoOfPaths(m, n, p, numbers));
+	}
+}

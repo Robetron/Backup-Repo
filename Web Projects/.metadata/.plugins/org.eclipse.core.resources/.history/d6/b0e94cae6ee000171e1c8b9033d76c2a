@@ -1,0 +1,25 @@
+package com.psl;
+
+public class User {
+	private void enterPortal() {
+		System.out.println("Enter Online Portal.");
+	}
+	private void exitPostal() {
+		System.out.println("Exit Online Portal.");
+	}
+	private void trainHonks() {
+		System.out.println("Train Hoots.");
+	}
+	public void departFromSource(String source, String time) {
+		trainHonks();
+		startTrain();
+		trainHonks();
+		System.out.println("Train left from "+source+" at "+time+".");
+	}
+	public void arriveAtDestination(String destination, String time) {
+		System.out.println("Train arrived at "+destination+" at "+time+".");
+		trainHonks();
+		stopTrain();
+		trainHonks();
+	}
+}

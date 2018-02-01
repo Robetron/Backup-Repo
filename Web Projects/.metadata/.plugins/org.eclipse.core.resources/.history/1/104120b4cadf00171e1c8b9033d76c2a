@@ -1,0 +1,38 @@
+package com.psl;
+
+public class Passenger {
+	private String name;
+	private String contact;
+	private Address address;
+	public Passenger() {
+	}
+	public Passenger(String name, String contact, Address address) {
+		this.name = name;
+		this.contact = contact;
+		this.address = address;
+	}
+	@Override
+	public String toString() {
+		return "Passenger [name=" + name + ", contact=" + contact
+				+ ", address=" + address + "]";
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getContact() {
+		return contact;
+	}
+	public void setContact(String contact) {
+		this.contact = contact;
+	}
+	public Address getAddress() {
+		return address;
+	}
+	public void setAddress(Address address) {
+		this.address = address;
+	}
+	
+}

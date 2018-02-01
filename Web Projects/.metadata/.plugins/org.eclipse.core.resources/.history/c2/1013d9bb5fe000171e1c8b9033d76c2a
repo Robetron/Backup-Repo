@@ -1,0 +1,19 @@
+package com.psl;
+
+public class Train {
+	public void startTrain() {
+		System.out.println("Train Started");
+	}
+
+	public void stopTrain() {
+		System.out.println("Train Stopped");
+	}
+
+	public void departFromSource(String source, String time) {
+		System.out.println("Train left at "+source+" at "+time);
+	}
+
+	public void arriveAtDestination(String destination, String time) {
+		System.out.println("Train arrived at "+destination+" at "+time);
+	}
+}

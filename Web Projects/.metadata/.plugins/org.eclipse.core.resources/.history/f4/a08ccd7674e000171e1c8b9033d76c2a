@@ -1,0 +1,50 @@
+package com.psl;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Pointcut;
+
+@Aspect
+public class OnlinePortal {
+	@Pointcut(value = "execution(* com.psl.User.browseItem(String)) && args(item)")
+	public void pc1(String item) {
+
+	}
+	@Pointcut(value = "execution(* com.psl.User.addToCart(String)) && args(item)")
+	public void pc2(String item) {
+
+	}
+	@Pointcut(value = "execution(* com.psl.User.placeOrder(..))")
+	public void pc3(String item) {
+
+	}
+	
+	@Around(value = "pc1(item)")
+	public void suggestions(ProceedingJoinPoint joinPoint, String item) {
+		// Before
+		System.out.println("");
+		// During
+		try {
+			joinPoint.proceed(); 
+		} catch (Throwable e) {
+			e.printStackTrace();
+		}
+		// After
+
+	}
+
+	@Around(value = "pc2()")
+	public void vouchers(ProceedingJoinPoint joinPoint) {
+		// Before
+
+		// During
+		try {
+			joinPoint.proceed(); 
+		} catch (Throwable e) {
+			e.printStackTrace();
+		}
+		// After
+		
+	}
+}

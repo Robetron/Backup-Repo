@@ -1,0 +1,16 @@
+package com.psl;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainClass {
+	public static void main(String[] args) throws Exception {
+		ApplicationContext context = new ClassPathXmlApplicationContext("SpringConfig.xml");
+		Performer p = (Performer) context.getBean("performer");
+		//p.practice();
+		p.perform("Lonely Together","Avicii");
+		//p.greetsFans();
+		//p.returnHome();
+		//p.haveSupper();
+	}
+}

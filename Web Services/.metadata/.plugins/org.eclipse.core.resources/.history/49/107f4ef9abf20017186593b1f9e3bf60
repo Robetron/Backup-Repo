@@ -1,0 +1,39 @@
+package com.psl;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class OperationsTest {
+
+	@Test
+	public void testIsOdd() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testIsEven() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSumOfListListOfInteger() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testProductOfListListOfInteger() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDivisibleByListOfIntegerInt() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testMultiplesOfListOfIntegerInt() {
+		fail("Not yet implemented");
+	}
+
+}

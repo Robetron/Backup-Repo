@@ -1,0 +1,19 @@
+package com.psl;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainClass {
+	public static void main(String[] args) throws Exception {
+		ApplicationContext context = new ClassPathXmlApplicationContext(
+				"SpringConfig.xml");
+		User user = (User) context.getBean("user");
+		user.enterPortal();
+		user.browseItem("Sofa cover");
+		Thread.sleep((int) (2000 + (int) (Math.random() * ((4000 - 2000) + 1))));
+		user.addToCart("Sofa cover");
+		Thread.sleep((int) (2000 + (int) (Math.random() * ((10000 - 2000) + 1))));
+		user.placeOrder();
+		user.exitPostal();
+	}
+}

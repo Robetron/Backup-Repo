@@ -1,0 +1,15 @@
+Script started on Fri 22 Dec 2017 11:07:53 AM IST
+sh-3.1$ cd 20_Dec_2017_Java/
+sh-3.1$ cd 20_Dec_2017_Java/sh-3.1$ exit[Kscript 22_12_2017 
+Script started, file is 22_12_2017
+sh-3.1$ echo ""$"S"H"E"L"L"
+/bin/sh
+sh-3.1$ chsh -s /bin/sh[K[Kbash
+Changing shell for el15.
+Password: 
+Shell changed.
+sh-3.1$ exit
+Script done, file is 22_12_2017
+sh-3.1$ exit
+
+Script done on Fri 22 Dec 2017 11:08:53 AM IST

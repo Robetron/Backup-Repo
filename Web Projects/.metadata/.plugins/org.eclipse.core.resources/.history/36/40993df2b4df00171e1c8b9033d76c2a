@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
+
+	<bean class="com.psl.Ticket" id="ticket" lazy-init="true" scope="prototype">
+		<constructor-arg value="001" />
+		<constructor-arg ref="passenger"/>
+		<constructor-arg ref="train" />
+	</bean>
+	<bean class="com.psl.Train" id="train">
+		<property name="name" value="PSL Express" />
+		<property name="seats" value="1000" />
+		<property name="source" value="Madgao" />
+		<property name="destination" value="Pune" />
+	</bean>
+	<bean class="com.psl.Passenger" id="passenger">
+		<property name="name" value="Vishal S. Robertson" />
+		<property name="contact" value="9764644889" />
+		<property name="address" ref="address"/>
+	</bean>
+	<bean class="com.psl.Address" id="address">
+		<property name="city" value="Mapusa" />
+		<property name="state" value="22" />
+		<property name="zip" value="403507" />
+	</bean>
+	<context:component-scan base-package="com.psl"/>
+</beans>

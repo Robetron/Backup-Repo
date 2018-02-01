@@ -1,0 +1,33 @@
+package com.psl;
+
+public class Ticket {
+	private int tNo;
+	private String pName;
+	private Train train;
+	public Ticket() {
+	}
+	public Ticket(int tNo, String pName, Train train) {
+		this.tNo = tNo;
+		this.pName = pName;
+		this.train = train;
+	}
+	public int gettNo() {
+		return tNo;
+	}
+	public void settNo(int tNo) {
+		this.tNo = tNo;
+	}
+	public String getpName() {
+		return pName;
+	}
+	public void setpName(String pName) {
+		this.pName = pName;
+	}
+	public Train getTrain() {
+		return train;
+	}
+	public void setTrain(Train train) {
+		this.train = train;
+	}
+	
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="JDBC Demo"/>
+<aop-project name="HelloWorld"/>
+<aop-project name="Assignment2"/>
+<aop-project name="Assignment4"/>
+<aop-project name="SpringMVC Demo"/>
+<aop-project name="Assignment6"/>
+<aop-project name="MovieTicketBooking_MVC"/>
+<aop-project name="Assignment1"/>
+<aop-project name="Assignment3"/>
+<aop-project name="Assignment5"/>
+<aop-project name="AOP Demo">
+<aspect-definition advice-class-name="com.psl.Audience" advice-method-name="record(org.aspectj.lang.ProceedingJoinPoint, java.lang.String, java.lang.String)" advice-type="AROUND" aspect-end-line-number="9" aspect-name="audience" aspect-start-line-number="9" factory-id="org.springframework.ide.eclipse.aop.core.annotationAspectDefinitionElementFactory" file="/AOP Demo/src/SpringConfig.xml" pointcut-expression="pc1(song, artist)" proxy-target-class="false">
+<aop-reference advice-type="AROUND" bean="1:BeansModel|2:AOP Demo|3:src/SpringConfig.xml|7:beans:6|8:performer:8" bean-file="/AOP Demo/src/SpringConfig.xml" bean-start-line="8" factory-id="org.springframework.ide.eclipse.aop.core.aopReferenceElementFactory" file="/AOP Demo/src/SpringConfig.xml" source="=AOP Demo/src&lt;com.psl{Audience.java[Audience~record~QProceedingJoinPoint;~QString;~QString;" source-start-line="48" target="=AOP Demo/src&lt;com.psl{Performer.java[Performer~perform~QString;~QString;" target-start-line="8"/>
+</aspect-definition>
+</aop-project>
+</aop-reference-model>

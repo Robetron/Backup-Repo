@@ -1,0 +1,575 @@
+Script started on Wed 20 Dec 2017 03:19:59 PM IST
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ exit[Kcal
+   December 2017    
+Su Mo Tu We Th Fr Sa
+                1  2
+ 3  4  5  6  7  8  9
+10 11 12 13 14 15 16
+17 18 19 [7m20[27m 21 22 23
+24 25 26 27 28 29 30
+31
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ vi 20_12_2031[K[K17
+[?1049h[?1h=[1;40r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[40;1H"20_12_2017" "20_12_2017" 0L, 0C[>c[2;1H[1m[34m~                                                                                                            [3;1H~                                                                                                            [4;1H~                                                                                                            [5;1H~                                                                                                            [6;1H~                                                                                                            [7;1H~                                                                                                            [8;1H~                                                                                                            [9;1H~                                                                                                            [10;1H~                                                                                                            [11;1H~                                                                                                            [12;1H~                                                                                                            [13;1H~                                                                                                            [14;1H~                                                                                                            [15;1H~                                                                                                            [16;1H~                                                                                                            [17;1H~                                                                                                            [18;1H~                                                                                                            [19;1H~                                                                                                            [20;1H~                                                                                                            [21;1H~                                                                                                            [22;1H~                                                                                                            [23;1H~                                                                                                            [24;1H~                                                                                                            [25;1H~                                                                                                            [26;1H~                                                                                                            [27;1H~                                                                                                            [28;1H~                                                                                                            [29;1H~                                                                                                            [30;1H~                                                                                                            [31;1H~                                                                                                            [32;1H~                                                                                                            [33;1H~                                                                                                            [34;1H~                                                                                                            [35;1H~                                                                                                            [36;1H~                                                                                                            [37;1H~                                                                                                            [38;1H~                                                                                                            [39;1H~                                                                                                            [m[40;92H0,0-1         All[1;1H[?12l[?25h[?25l[40;1H[K[40;1H:[?12l[?25hq[?25l:q[?12l[?25h[?25l[40;1H[K[40;1H[?1l>[?12l[?25h[?1049l]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ vi 20_12_2017cal[Kexit[1Pcal
+   December 2017    
+Su Mo Tu We Th Fr Sa
+                1  2
+ 3  4  5  6  7  8  9
+10 11 12 13 14 15 16
+17 18 19 [7m20[27m 21 22 23
+24 25 26 27 28 29 30
+31
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ uname
+Linux
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ who
+root     pts/1        2017-04-29 14:46 (:0.0)
+root     pts/2        2017-04-29 17:54 (:0.0)
+root     pts/18       2017-06-19 17:12 (:0.0)
+Eshital1 pts/218      2017-12-20 11:31 (10.88.25.156)
+el15     pts/233      2017-12-20 12:59 (10.244.2.174)
+el13     pts/256      2017-12-20 12:27 (10.244.2.57)
+el4      pts/269      2017-12-20 12:27 (10.244.2.54)
+el7      pts/298      2017-12-20 12:27 (10.244.2.165)
+el5      pts/272      2017-12-20 12:27 (10.244.2.61)
+el1      pts/286      2017-12-20 12:27 (10.244.2.32)
+el10     pts/305      2017-12-20 12:27 (10.244.2.52)
+el3      pts/306      2017-12-20 12:27 (10.244.2.37)
+el6      pts/285      2017-12-20 12:27 (10.244.2.42)
+el2      pts/299      2017-12-20 12:27 (10.244.2.39)
+el12     pts/300      2017-12-20 12:27 (10.244.2.62)
+el8      pts/301      2017-12-20 12:27 (10.244.2.36)
+el16     pts/309      2017-12-20 12:30 (10.244.2.167)
+bgavkare pts/310      2017-12-20 12:27 (10.244.52.225)
+el14     pts/311      2017-12-20 12:27 (10.244.2.67)
+el9      pts/313      2017-12-20 12:27 (10.244.2.41)
+el11     pts/308      2017-12-20 12:27 (10.244.2.68)
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ hostname
+v-trglinux.persistent.co.in
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ type ls
+ls is aliased to `ls --color=tty'
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ pwd
+/home/el15/20_Dec_2017_Java
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ ls -a
+[00m[00;34m.[00m  [00;34m..[00m  [00m20_12_2017[00m  [00mmyFile[00m  [00mtypescript[00m
+[m]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ 
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ 
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ 
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ 
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ echo ""$"P"S"L"1"[el15@v-trglinux 20_Dec_2017_Java]$ echo "$PSL[1P1"
+[\u@\h \W]\$ 
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ PS [K1=""v"s"r"
+]0;el15@v-trglinux:~/20_Dec_2017_JavavsrPS1="vsr"vsr[KPS1="vsr"vsr[Kcal
+   December 2017    
+Su Mo Tu We Th Fr Sa
+                1  2
+ 3  4  5  6  7  8  9
+10 11 12 13 14 15 16
+17 18 19 [7m20[27m 21 22 23
+24 25 26 27 28 29 30
+31
+]0;el15@v-trglinux:~/20_Dec_2017_JavavsrcalPS1="vsr"[1P"[1P"[1P"["]"\]"u]"@]"\]"h]" ]"\]"W]"vsrPS1="[\u@\h \W]\"$"
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$touch account.txt
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$touch account.txt[el15@v-trglinux 20_Dec_2017_Java]$touch account[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtA.txtC.txtC.txtO.txtU.txtT.txt[1P.txtN.txtT.txt
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ls -a
+[00m[00;34m.[00m  [00;34m..[00m  [00m20_12_2017[00m  [00maccount.txt[00m  [00mACCOUNT.txt[00m  [00mmyFile[00m  [00mtypescript[00m
+[m]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$1[Kls -atouch ACCOUNT.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txt[1P.txtc.txtc.txto.txtu.txtn.txtt.txtls -a[Ktouch Account.txt
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$touch Account.txtls -a[Ktouch ACCOUNT.txtls -a[K
+[00m[00;34m.[00m  [00;34m..[00m  [00m20_12_2017[00m  [00maccount.txt[00m  [00mAccount.txt[00m  [00mACCOUNT.txt[00m  [00mmyFile[00m  [00mtypescript[00m
+[m]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ls -atouch Account.txtls -a[Ktouch ACCOUNT.txtaccount.txtPS1="[\u@\h \W]\$"cal[KPS1="vsr"echo "$PS1"[2PPS1="vsr"[6PcalPS1="[\u@\h \W]\$"[1Ptouch account.txtACCOUNT.txtls -a[K[Ksh /
+[00mtotal 6.8M
+4.0K [00;34makash[00m                        2.0K [00;34mboot[00m  8.0K [00;34mlib[00m         8.0K [00;34mmnt[00m   8.0K [34;42mroot[00m        0 [00;34msys[00m
+4.0K [00;34mapache-tomcat-6.0.37[00m            0 [00;34mdev[00m    16K [00;34mlost+found[00m     0 [00;34mnet[00m    16K [00;34msbin[00m      16K [30;42mtmp[00m
+6.6M [00;31mapache-tomcat-6.0.37.tar.gz[00m   16K [00;34metc[00m   8.0K [00;34mmedia[00m       8.0K [00;34mopt[00m   8.0K [00;34mselinux[00m  8.0K [00;34musr[00m
+8.0K [00;34mbin[00m                           24K [00;34mhome[00m     0 [00;34mmisc[00m           0 [00;34mproc[00m  8.0K [00;34msrv[00m      8.0K [00;34mvar[00m
+[m]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ls -sh /[1P[1@S
+[00m[00;31mapache-tomcat-6.0.37.tar.gz[00m  [00;34metc[00m   [00;34makash[00m                 [00;34mlib[00m    [00;34mopt[00m      [00;34msrv[00m  [00;34mdev[00m   [00;34mnet[00m
+[00;34mhome[00m                         [00;34msbin[00m  [00;34mapache-tomcat-6.0.37[00m  [00;34mmedia[00m  [34;42mroot[00m     [00;34musr[00m  [00;34mboot[00m  [00;34mproc[00m
+[00;34mlost+found[00m                   [30;42mtmp[00m   [00;34mbin[00m                   [00;34mmnt[00m    [00;34mselinux[00m  [00;34mvar[00m  [00;34mmisc[00m  [00;34msys[00m
+[m]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$man date
+[?1049h[?1h=[40;1H[KDATE(1)                          User Commands                         DATE(1)
+
+[1mNAME[0m
+       date - print or set the system date and time
+
+[1mSYNOPSIS[0m
+       [1mdate[0m [[4mOPTION[24m]... [[4m+FORMAT[24m]
+       [1mdate[0m [[4m-u|--utc|--universal[24m] [[4mMMDDhhmm[24m[[[4mCC[24m][4mYY[24m][[4m.ss[24m]]
+
+[1mDESCRIPTION[0m
+       Display the current time in the given FORMAT, or set the system date.
+
+       [1m-d[0m, [1m--date[0m=[4mSTRING[24m
+              display time described by STRING, not ‘now’
+
+       [1m-f[0m, [1m--file[0m=[4mDATEFILE[24m
+              like [1m--date[0m once for each line of DATEFILE
+
+       [1m-r[0m, [1m--reference[0m=[4mFILE[24m
+              display the last modification time of FILE
+
+       [1m-R[0m, [1m--rfc-2822[0m
+              output date and time in RFC 2822 format
+
+       [1m--rfc-3339[0m=[4mTIMESPEC[24m
+              output  date  and  time in RFC 3339 format.  TIMESPEC=‘date’, ‘seconds’, or ‘ns’ for
+              date and time to the indicated precision.
+
+       [1m-s[0m, [1m--set[0m=[4mSTRING[24m
+              set time described by STRING
+
+       [1m-u[0m, [1m--utc[0m, [1m--universal[0m
+              print or set Coordinated Universal Time
+
+       [1m--help[0m display this help and exit
+
+       [1m--version[0m
+              output version information and exit
+
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       FORMAT controls the output.  The only valid option for the second  form  specifies  Coordi-
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       nated Universal Time.  Interpreted sequences are:
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %%     a literal %
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %a     locale’s abbreviated weekday name (e.g., Sun)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %A     locale’s full weekday name (e.g., Sunday)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %b     locale’s abbreviated month name (e.g., Jan)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %B     locale’s full month name (e.g., January)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %c     locale’s date and time (e.g., Thu Mar  3 23:05:25 2005)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %C     century; like %Y, except omit last two digits (e.g., 21)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %d     day of month (e.g, 01)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %D     date; same as %m/%d/%y
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %e     day of month, space padded; same as %_d
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %F     full date; same as %Y-%m-%d
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %g     last two digits of year of ISO week number (see %G)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %G     year of ISO week number (see %V); normally useful only with %V
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %h     same as %b
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %H     hour (00..23)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %I     hour (01..12)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %j     day of year (001..366)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %k     hour ( 0..23)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %l     hour ( 1..12)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %m     month (01..12)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %M     minute (00..59)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %n     a newline
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %N     nanoseconds (000000000..999999999)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %p     locale’s equivalent of either AM or PM; blank if not known
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %P     like %p, but lower case
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %r     locale’s 12-hour clock time (e.g., 11:11:04 PM)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %R     24-hour hour and minute; same as %H:%M
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %s     seconds since 1970-01-01 00:00:00 UTC
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %S     second (00..60)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %t     a tab
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %T     time; same as %H:%M:%S
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %u     day of week (1..7); 1 is Monday
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %U     week number of year, with Sunday as first day of week (00..53)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %V     ISO week number, with Monday as first day of week (01..53)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %w     day of week (0..6); 0 is Sunday
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %W     week number of year, with Monday as first day of week (00..53)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %x     locale’s date representation (e.g., 12/31/99)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %X     locale’s time representation (e.g., 23:13:48)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %y     last two digits of year (00..99)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %Y     year
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %z     +hhmm numeric timezone (e.g., [1m-0400[0m)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %:z    +hh:mm numeric timezone (e.g., [1m-04[0m:00)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %N     nanoseconds (000000000..999999999)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %n     a newline
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %M     minute (00..59)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %m     month (01..12)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %l     hour ( 1..12)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %k     hour ( 0..23)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %j     day of year (001..366)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %I     hour (01..12)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %H     hour (00..23)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %h     same as %b
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %G     year of ISO week number (see %V); normally useful only with %V
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %g     last two digits of year of ISO week number (see %G)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %F     full date; same as %Y-%m-%d
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %e     day of month, space padded; same as %_d
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %D     date; same as %m/%d/%y
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %d     day of month (e.g, 01)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %C     century; like %Y, except omit last two digits (e.g., 21)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %c     locale’s date and time (e.g., Thu Mar  3 23:05:25 2005)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %B     locale’s full month name (e.g., January)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %b     locale’s abbreviated month name (e.g., Jan)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %A     locale’s full weekday name (e.g., Sunday)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %N     nanoseconds (000000000..999999999)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %p     locale’s equivalent of either AM or PM; blank if not known
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %P     like %p, but lower case
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %r     locale’s 12-hour clock time (e.g., 11:11:04 PM)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %R     24-hour hour and minute; same as %H:%M
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %s     seconds since 1970-01-01 00:00:00 UTC
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %S     second (00..60)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %t     a tab
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %T     time; same as %H:%M:%S
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %u     day of week (1..7); 1 is Monday
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %U     week number of year, with Sunday as first day of week (00..53)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %V     ISO week number, with Monday as first day of week (01..53)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %w     day of week (0..6); 0 is Sunday
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %W     week number of year, with Monday as first day of week (00..53)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %x     locale’s date representation (e.g., 12/31/99)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %X     locale’s time representation (e.g., 23:13:48)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %y     last two digits of year (00..99)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %Y     year
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %z     +hhmm numeric timezone (e.g., [1m-0400[0m)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %:z    +hh:mm numeric timezone (e.g., [1m-04[0m:00)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %::z   +hh:mm:ss numeric time zone (e.g., [1m-04[0m:00:00)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %:::z  numeric time zone with : to necessary precision (e.g., [1m-04[0m, +05:30)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %Z     alphabetic time zone abbreviation (e.g., EDT)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       By  default, date pads numeric fields with zeroes.  The following optional flags may follow
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       ‘%’:
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K              - (hyphen) do not pad the field _ (underscore) pad with spaces  0  (zero)  pad  with
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K              zeros ^ use upper case if possible # use opposite case if possible
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       After  any flags comes an optional field width, as a decimal number; then an optional modi-
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       fier, which is either E to use the locale’s alternate representations if available, or O to
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       use the locale’s alternate numeric symbols if available.
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[1mENVIRONMENT[0m
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       TZ     Specifies the timezone, unless overridden by command line parameters.  If neither is
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K              specified, the setting from /etc/localtime is used.
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[1mAUTHOR[0m
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       Written by David MacKenzie.
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[1mREPORTING[0m [1mBUGS[0m
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       Report bugs to <bug-coreutils@gnu.org>.
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[1mCOPYRIGHT[0m
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       Copyright © 2006 Free Software Foundation, Inc.
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       This is free software.  You may redistribute copies of it under the terms of the  GNU  Gen-
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       eral  Public  License <http://www.gnu.org/licenses/gpl.html>.  There is NO WARRANTY, to the
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       extent permitted by law.
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[1mSEE[0m [1mALSO[0m
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       The full documentation for [1mdate[0m is maintained as a Texinfo manual.  If the  [1minfo[0m  and  [1mdate[0m
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       programs are properly installed at your site, the command
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K              [1minfo[0m [1mdate[0m
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       should give you access to the complete manual.
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[Kdate 5.97                          May 2006                            DATE(1)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[40;1H[K[7m(END) [27m[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[40;1H[K[7m(END) [27m[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[40;1H[K[7m(END) [27m[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[40;1H[K[7m(END) [27m[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[40;1H[K[7m(END) [27m[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[40;1H[K[7m(END) [27m[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[40;1H[K[7m(END) [27m[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[40;1H[K[7m(END) [27m[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[40;1H[K[7m(END) [27m[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[40;1H[K[7m(END) [27m[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[40;1H[K[7m(END) [27m[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[40;1H[K[7m(END) [27m[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[40;1H[K[7m(END) [27m[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K[40;1H[K[7m(END) [27m[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %::z   +hh:mm:ss numeric time zone (e.g., [1m-04[0m:00:00)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %:z    +hh:mm numeric timezone (e.g., [1m-04[0m:00)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %z     +hhmm numeric timezone (e.g., [1m-0400[0m)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %Y     year
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %y     last two digits of year (00..99)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %X     locale’s time representation (e.g., 23:13:48)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %x     locale’s date representation (e.g., 12/31/99)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %W     week number of year, with Monday as first day of week (00..53)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %w     day of week (0..6); 0 is Sunday
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %V     ISO week number, with Monday as first day of week (01..53)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %U     week number of year, with Sunday as first day of week (00..53)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %u     day of week (1..7); 1 is Monday
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %T     time; same as %H:%M:%S
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %t     a tab
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %S     second (00..60)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %s     seconds since 1970-01-01 00:00:00 UTC
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %R     24-hour hour and minute; same as %H:%M
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %r     locale’s 12-hour clock time (e.g., 11:11:04 PM)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %P     like %p, but lower case
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %p     locale’s equivalent of either AM or PM; blank if not known
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %N     nanoseconds (000000000..999999999)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %n     a newline
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %M     minute (00..59)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %m     month (01..12)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %l     hour ( 1..12)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %k     hour ( 0..23)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %j     day of year (001..366)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %I     hour (01..12)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %H     hour (00..23)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %h     same as %b
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %G     year of ISO week number (see %V); normally useful only with %V
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %g     last two digits of year of ISO week number (see %G)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %F     full date; same as %Y-%m-%d
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %e     day of month, space padded; same as %_d
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %D     date; same as %m/%d/%y
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %d     day of month (e.g, 01)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %C     century; like %Y, except omit last two digits (e.g., 21)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %c     locale’s date and time (e.g., Thu Mar  3 23:05:25 2005)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %B     locale’s full month name (e.g., January)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %b     locale’s abbreviated month name (e.g., Jan)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %A     locale’s full weekday name (e.g., Sunday)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %a     locale’s abbreviated weekday name (e.g., Sun)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       %%     a literal %
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       nated Universal Time.  Interpreted sequences are:
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       FORMAT controls the output.  The only valid option for the second  form  specifies  Coordi-
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM              output version information and exit
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       [1m--version[0m
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       [1m--help[0m display this help and exit
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM              print or set Coordinated Universal Time
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       [1m-u[0m, [1m--utc[0m, [1m--universal[0m
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM              set time described by STRING
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       [1m-s[0m, [1m--set[0m=[4mSTRING[24m
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM              date and time to the indicated precision.
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM              output  date  and  time in RFC 3339 format.  TIMESPEC=‘date’, ‘seconds’, or ‘ns’ for
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       [1m--rfc-3339[0m=[4mTIMESPEC[24m
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM              output date and time in RFC 2822 format
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       [1m-R[0m, [1m--rfc-2822[0m
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM              display the last modification time of FILE
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM       [1m-r[0m, [1m--reference[0m=[4mFILE[24m
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM
+[40;1H[K:[40;1H[K [KESCESC[KOO[KAA[40;1H[HM              like [1m--date[0m once for each line of DATEFILE
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %d     day of month (e.g, 01)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %D     date; same as %m/%d/%y
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %e     day of month, space padded; same as %_d
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %F     full date; same as %Y-%m-%d
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %g     last two digits of year of ISO week number (see %G)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %G     year of ISO week number (see %V); normally useful only with %V
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %h     same as %b
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %H     hour (00..23)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %I     hour (01..12)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %j     day of year (001..366)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %k     hour ( 0..23)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %l     hour ( 1..12)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %m     month (01..12)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %M     minute (00..59)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %n     a newline
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %N     nanoseconds (000000000..999999999)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %p     locale’s equivalent of either AM or PM; blank if not known
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %P     like %p, but lower case
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %r     locale’s 12-hour clock time (e.g., 11:11:04 PM)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %R     24-hour hour and minute; same as %H:%M
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %s     seconds since 1970-01-01 00:00:00 UTC
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %S     second (00..60)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %t     a tab
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %T     time; same as %H:%M:%S
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %u     day of week (1..7); 1 is Monday
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %U     week number of year, with Sunday as first day of week (00..53)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %V     ISO week number, with Monday as first day of week (01..53)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %w     day of week (0..6); 0 is Sunday
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %W     week number of year, with Monday as first day of week (00..53)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %x     locale’s date representation (e.g., 12/31/99)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %X     locale’s time representation (e.g., 23:13:48)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %y     last two digits of year (00..99)
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K       %Y     year
+[40;1H[K:[40;1H[K [KESCESC[KOO[KBB[40;1H[40;1H[K
+[40;1H[K:[40;1H[K [KESCESC[K^?^?[40;1H[K:[40;1H[K:[40;1H[K[?1l>[?1049l]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$date
+Wed Dec 20 15:35:47 IST 2017
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$date %B
+date: invalid date `%B'
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$date %B+%B[el15@v-trglinux 20_Dec_2017_Java]$date +%[el15@v-trglinux 20_Dec_2017_Java]$date +%B
+December
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$date +%B%b
+DecemberDec
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$cd 20_12_2017 
+bash: cd: 20_12_2017: Not a directory
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$mkdir ShellScript_Script
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$cd Shell_Script/
+]0;el15@v-trglinux:~/20_Dec_2017_Java/Shell_Script[el15@v-trglinux Shell_Script]$vi shebang
+[?1049h[?1h=[1;40r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[40;1H"shebang" [New File][>c[2;1H[1m[34m~                                                                                                            [3;1H~                                                                                                            [4;1H~                                                                                                            [5;1H~                                                                                                            [6;1H~                                                                                                            [7;1H~                                                                                                            [8;1H~                                                                                                            [9;1H~                                                                                                            [10;1H~                                                                                                            [11;1H~                                                                                                            [12;1H~                                                                                                            [13;1H~                                                                                                            [14;1H~                                                                                                            [15;1H~                                                                                                            [16;1H~                                                                                                            [17;1H~                                                                                                            [18;1H~                                                                                                            [19;1H~                                                                                                            [20;1H~                                                                                                            [21;1H~                                                                                                            [22;1H~                                                                                                            [23;1H~                                                                                                            [24;1H~                                                                                                            [25;1H~                                                                                                            [26;1H~                                                                                                            [27;1H~                                                                                                            [28;1H~                                                                                                            [29;1H~                                                                                                            [30;1H~                                                                                                            [31;1H~                                                                                                            [32;1H~                                                                                                            [33;1H~                                                                                                            [34;1H~                                                                                                            [35;1H~                                                                                                            [36;1H~                                                                                                            [37;1H~                                                                                                            [38;1H~                                                                                                            [39;1H~                                                                                                            [m[40;92H0,0-1         All[1;1H[?12l[?25h[?25l[40;1H[K[40;1H:[?12l[?25hq[?25l:q[?12l[?25h[?25l[40;1H[K[40;1H[?1l>[?12l[?25h[?1049l]0;el15@v-trglinux:~/20_Dec_2017_Java/Shell_Script[el15@v-trglinux Shell_Script]$cd
+]0;el15@v-trglinux:~[el15@v-trglinux ~]$pwd
+/home/el15
+]0;el15@v-trglinux:~[el15@v-trglinux ~]$vi .vr[Kmrc
+[?1049h[?1h=[1;40r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[40;1H".vmrc" [New File][>c[2;1H[1m[34m~                                                                                                            [3;1H~                                                                                                            [4;1H~                                                                                                            [5;1H~                                                                                                            [6;1H~                                                                                                            [7;1H~                                                                                                            [8;1H~                                                                                                            [9;1H~                                                                                                            [10;1H~                                                                                                            [11;1H~                                                                                                            [12;1H~                                                                                                            [13;1H~                                                                                                            [14;1H~                                                                                                            [15;1H~                                                                                                            [16;1H~                                                                                                            [17;1H~                                                                                                            [18;1H~                                                                                                            [19;1H~                                                                                                            [20;1H~                                                                                                            [21;1H~                                                                                                            [22;1H~                                                                                                            [23;1H~                                                                                                            [24;1H~                                                                                    Script started on Wed 20 Dec 2017 03:57:16 PM IST
+]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ cd SH=[K[Khell_Script/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kvi 20_12_2017 
+[?1049h[?1h=[1;52r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[52;1H"20_12_2017" "20_12_2017" [noeol] 533L, 57344C[>c[1;1H[33m  1 [mScript started on Wed 20 Dec 2017 03:19:59 PM IST
+[33m  2 [m[34m^[[m]0;el15@v-trglinux:~/20_Dec_2017_Java[34m^G[m[el15@v-trglinux 20_Dec_2017_Java]$ exit[34m^H^H^H^H^[[m[Kcal[34m^M[m
+[33m  3 [m   December 2017    [34m^M[m
+[33m  4 [mSu Mo Tu We Th Fr Sa[34m^M[m
+[33m  5 [m[16C1  2[34m^M[m
+[33m  6 [m 3  4  5  6  7  8  9[34m^M[m
+[33m  7 [m10 11 12 13 14 15 16[34m^M[m
+[33m  8 [m17 18 19 [34m^[[m[7m20[34m^[[m[27m 21 22 23[34m^M[m
+[33m  9 [m24 25 26 27 28 29 30[34m^M[m
+[33m 10 [m31[34m^M[m
+[33m 11 [m[34m^[[m]0;el15@v-trglinux:~/20_Dec_2017_Java[34m^G[m[el15@v-trglinux 20_Dec_2017_Java]$ vi 20_12_2031[34m^H^[[m[K[34m^H^[[m[K17[34m^M[m
+[33m 12 [m[34m^[[m[?1049h[34m^[[m[?1h[34m^[[m=[34m^[[m[1;40r[34m^[[m[?12;25h[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[27m[34m^[[m[m[34m^[[m[H[34m^[[m[2J[34m^[[m[?25l[34m^[[m[40;1H"20_12_2017" [34m^M[m"20_12_2017" 0L, 0C[34m^[[m[>c[34m^[[m[2;1H[34m^[[m[1m[34m^[[m[34m~[30C  [13;1H[33m    [m[77C[34m^[[m[3;1H~[87C  [14;1H[33m    [m[20C[34m^[[m[4;1H~[108C[34m^[[m[5;1H~[28C  [15;1H[33m    [m[79C[34m^[[m[6;1H~[85C  [16;1H[33m    [m[22C[34m^[[m[7;1H~[108C[34m^[[m[8;1H~[26C  [17;1H[33m    [m[81C[34m^[[m[9;1H~[83C  [18;1H[33m    [m[24C[34m^[[m[10;1H~[108C[34m^[[m[11;1H~[22C  [19;1H[33m    [m[85C[34m^[[m[12;1H~[78C  [20;1H[33m    [m[29C[34m^[[m[13;1H~[108C[34m^[[m[14;1H~[17C  [21;1H[33m    [m[90C[34m^[[m[15;1H~[73C  [22;1H[33m    [m[34C[34m^[[m[16;1H~[108C[34m^[[m[17;1H~[12C  [23;1H[33m    [m[95C[34m^[[m[18;1H~[68C  [24;1H[33m    [m[39C[34m^[[m[19;1H~[108C[34m^[[m[20;1H~[7C  [25;1H[33m    [m[100C[34m^[[m[21;1H~[63C  [26;1H[33m    [m[44C[34m^[[m[22;1H~[108C[34m^[[m[23;1H~    [27;1H[33m    [m[105C[34m^[[m[24;1H~[58C  [28;1H[33m    [m[49C[34m^[[m[25;1H~[108C[34m^[[m[26;11[29;1H[33m    [mH~[108C[34m^[[m[27;1H~[53C  [30;1H[33m    [m[54C[34m^[[m[28;1H~[108C[34m^[[[m[31;1H[33m    [m[29;1H~[108C[34m^[[m[30;1H~[48C  [32;1H[33m    [m[59C[34m^[[m[31;1H~[104C  [33;1H[33m    [m   [34m^[[m[32;1H~[108C[34m^[[m[33;1H~[43C  [34;1H[33m    [m[64C[34m^[[m[34;1H~[99C  [35;1H[33m    [m[8C[34m^[[m[35;1H~[108C[34m^[[m[36;1H~[38C  [36;1H[33m    [m[69C[34m^[[m[37;1H~[94C  [37;1H[33m    [m[13C[34m^[[m[38;1H~[108C[34m^[[m[39;1H~[33C  [38;1H[33m    [m[74C[34m^[[m[m[34m^[[m[40;92H0,0-1[9CAll[34m^[[m[1;1H[34m^[[m[?12l[34m^[[m[?25h[34m^G^G^[[m[?25l[34m^[[m[40;1H[34m^[[m[K[34m^[[m[40;1H:[34m^[[m[?12l[34m^[[m[?25hq[34m^^[m[39;1H[33m    [m[34m[[m[?25l[34m^M[m:q[34m^[[m[?12l[34m^[[m[?25h[34m^M^[[m[?25l[34m^[[m[40;1H[34m^[[m[K[34m^[[m[40;1H[34m^[[m[?1l[34m^[[m>[34m^[[m[?12l[34m^[[m[?25h[34m^[[m[?1049l[34m^[[m]0;el15@v-trglinux:~/20_Dec_2017_Java[34m^G[m[el15@v-trglinux 20_Dec_2017_Java]$ vi 20_12_200[40;1H[33m    [m17[34m^H^H^H^H^H^H^H^H^H^H^H^H^H[mcal[34m^[[m[K[34m^H^H^H[mexit[34m^H^H^H^H^[[m[1Pcal[34m^M[m
+[33m 13 [m   December 2017    [34m^M[m
+[33m 14 [mSu Mo Tu We Th Fr Sa[34m^M[m
+[33m 15 [m[16C1  2[34m^M[m
+[33m 16 [m 3  4  5  6  7  8  9[34m^M[m
+[33m 17 [m10 11 12 13 14 15 16[34m^M[m
+[33m 18 [m17 18 19 [34m^[[m[7m20[34m^[[m[27m 21 22 23[34m^M[m
+[33m 19 [m24 25 26 27 28 29 30[34m^M[m
+[33m 20 [m31[34m^M[m
+[33m 21 [m[34m^[[m]0;el15@v-trglinux:~/20_Dec_2017_Java[34m^G[m[el15@v-trglinux 20_Dec_2017_Java]$ uname[34m^M[m
+[33m 22 [mLinux[34m^M[m
+[33m 23 [m[34m^[[m]0;el15@v-trglinux:~/20_Dec_2017_Java[34m^G[m[el15@v-trglinux 20_Dec_2017_Java]$ who[34m^M[m[52;160H1,1           Top[1;5H[?12l[?25h[?25l[52;1H[K[52;1H:[?12l[?25hq[?25l:q[?12l[?25h[?25l[52;1H[K[52;1H[?1l>[?12l[?25h[?1049l]0;el15@v-trglinux:~/20_Dec_2017_Java[el15@v-trglinux 20_Dec_2017_Java]$ cd Shell_Script/
+]0;el15@v-trglinux:~/20_Dec_2017_Java/Shell_Script[el15@v-trglinux Shell_Script]$ vi read.sh
+[?1049h[?1h=[1;52r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[52;1H"read.sh" [New File][>c[1;1H[33m  1 [m
+[1m[34m~                                                                                                                                                                                [3;1H~                                                                                                                                                                                [4;1H~                                                                                                                                                                                [5;1H~                                                                                                                                                                                [6;1H~                                                                                                                                                                                [7;1H~                                                                                                                                                                                [8;1H~                                                                                                                                                                                [9;1H~                                                                                                                                                                                [10;1H~                                                                                                                                                                                [11;1H~                                                                                                                                                                                [12;1H~                                                                                                                                                                                [13;1H~                                                                                                                                                                                [14;1H~                                                                                                                                                                                [15;1H~                                                                                                                                                                                [16;1H~                                                                                                                                                                                [17;1H~                                                                                                                                                                                [18;1H~                                                                                                                                                                                [19;1H~                                                                                                                                                                                [20;1H~                                                                                                                                                                                [21;1H~                                                                                                                                                                                [22;1H~                                                                                                                                                                                [23;1H~                                                                                                                                                                                [24;1H~                                                                                                                                                                                [25;1H~                                                                                                                                                                                [26;1H~                                                                                                                                                                                [27;1H~                                                                                                                                                                                [28;1H~                                                                                                                                                                                [29;1H~                                                                                                                                                                                [30;1H~                                                                                                                                                                                [31;1H~                                                                                                                                                                                [32;1H~                                                                                                                                                                                [33;1H~                                                                                                                                                                                [34;1H~                                                                                                                                                                                [35;1H~                                                                                                                                                                                [36;1H~                                                                                                                                                                                [37;1H~                                                                                                                                                                                [38;1H~                                                                                                                                                                                [39;1H~                                                                                                                                                                                [40;1H~                                                                                                                                                                                [41;1H~                                                                                                                                                                                [42;1H~                                                                                                                                                                                [43;1H~                                                                                                                                                                                [44;1H~                                                                                                                                                                                [45;1H~                                                                                                                                                                                [46;1H~                                                                                                                                                                                [47;1H~                                                                                                                                                                                [48;1H~                                                                                                                                                                                [49;1H~                                                                                                                                                                                [50;1H~                                                                                                                                                                                [51;1H~                                                                                                                                                                                [m[52;160H0,0-1         All[1;5H[?12l[?25h[?25l[52;1H[1m-- INSERT --[m[52;13H[K[52;160H0,1           All[1;5H[?12l[?25h[?25ls[52;160H1,2           All[1;6H[?12l[?25h[?25ld[52;160H1,3           All[1;7H[?12l[?25h[?25lf[52;160H1,4           All[1;8H[?12l[?25h[?25l[1;7H[K[52;160H1,3           All[1;7H[?12l[?25h[?25l[1;6H[K[52;160H1,2           All[1;6H[?12l[?25h[?25l[1;5H[K[52;160H1,1           All[1;5H[?12l[?25h[?25l[34m#[m[52;160H1,2           All[1;6H[?12l[?25h[?25l[34m~[m[52;160H1,3           All[1;7H[?12l[?25h[?25l[1;6H[K[52;160H1,2           All[1;6H[?12l[?25h[?25l[34m`[m[52;160H1,3           All[1;7H[?12l[?25h[?25l[1;6H[K[52;160H1,2           All[1;6H[?12l[?25h[?25l[34m![m[52;160H1,3           All[1;7H[?12l[?25h[?25l[34m/[m[52;160H1,4           All[1;8H[?12l[?25h[?25l[34mb[m[52;160H1,5           All[1;9H[?12l[?25h[?25l[34mi[m[52;160H1,6           All[1;10H[?12l[?25h[?25l[34mn[m[52;160H1,7           All[1;11H[?12l[?25h[?25l[34m/[m[52;160H1,8           All[1;12H[?12l[?25h[?25l[34mb[m[52;160H1,9           All[1;13H[?12l[?25h[?25l[34ma[m[52;160H1,10          All[1;14H[?12l[?25h[?25l[34ms[m[52;160H1,11          All[1;15H[?12l[?25h[?25l[34mh[m[52;160H1,12          All[1;16H[?12l[?25h[?25l
+[33m  2 [m[2;5H[K[52;160H2,1           All[2;5H[?12l[?25h[?25l
+[33m  3 [m[3;5H[K[52;160H3,1           All[3;5H[?12l[?25h[?25l[34m#[m[52;160H3,2           All[3;6H[?12l[?25h[?25l
+[33m  4 [m[4;5H[K[52;160H4,1           All[4;5H[?12l[?25h[?25l
+[33m  5 [m[5;5H[K[52;160H5,1           All[5;5H[?12l[?25h[?25le[52;160H5,2           All[5;6H[?12l[?25h[?25lc[52;160H5,3           All[5;7H[?12l[?25h[?25lh[52;160H5,4           All[5;8H[?12l[?25h[?25l[33mecho[m[52;160H5,5           All[5;9H[?12l[?25h[?25l[31m [m[52;160H5,6           All[5;10H[?12l[?25h[?25l[33m"[m[52;160H5,7           All[5;11H[?12l[?25h[?25l[33m"[m[52;160H5,8           All[5;12H[?12l[?25h[?25l[52;160H5,7           All[5;11H[?12l[?25h[?25l[31mE[m[33m"[m[52;160H5,8           All[5;12H[?12l[?25h[?25l[31mn[m[33m"[m[52;160H5,9           All[5;13H[?12l[?25h[?25l[31mt[m[33m"[m[52;160H5,10          All[5;14H[?12l[?25h[?25l[31mr[m[33m"[m[52;160H5,11          All[5;15H[?12l[?25h[?25l[33m"[m[5;15H[K[52;160H5,10          All[5;14H[?12l[?25h[?25l[31me[m[33m"[m[52;160H5,11          All[5;15H[?12l[?25h[?25l[31mr[m[33m"[m[52;160H5,12          All[5;16H[?12l[?25h[?25l[31m [m[33m"[m[52;160H5,13          All[5;17H[?12l[?25h[?25l[31my[m[33m"[m[52;160H5,14          All[5;18H[?12l[?25h[?25l[31mo[m[33m"[m[52;160H5,15          All[5;19H[?12l[?25h[?25l[31mu[m[33m"[m[52;160H5,16          All[5;20H[?12l[?25h[?25l[31mr[m[33m"[m[52;160H5,17          All[5;21H[?12l[?25h[?25l[31m [m[33m"[m[52;160H5,18          All[5;22H[?12l[?25h[?25l[31mn[m[33m"[m[52;160H5,19          All[5;23H[?12l[?25h[?25l[31ma[m[33m"[m[52;160H5,20          All[5;24H[?12l[?25h[?25l[31mm[m[33m"[m[52;160H5,21          All[5;25H[?12l[?25h[?25l[31me[m[33m"[m[52;160H5,22          All[5;26H[?12l[?25h[?25l[31m:[m[33m"[m[52;160H5,23          All[5;27H[?12l[?25h[?25l[31m [m[33m"[m[52;160H5,24          All[5;28H[?12l[?25h[?25l[52;160H5,25          All[5;29H[?12l[?25h[?25l
+[33m  6 [m[6;5H[K[52;160H6,1           All[6;5H[?12l[?25h[?25lr[52;160H6,2           All[6;6H[?12l[?25h[?25le[52;160H6,3           All[6;7H[?12l[?25h[?25la[52;160H6,4           All[6;8H[?12l[?25h[?25l[33mread[m[52;160H6,5           All[6;9H[?12l[?25h[?25l[52;160H6,6           All[6;10H[?12l[?25h[?25lf[52;160H6,7           All[6;11H[?12l[?25h[?25ln[52;160H6,8           All[6;12H[?12l[?25h[?25la[52;160H6,9           All[6;13H[?12l[?25h[?25lm[52;160H6,10          All[6;14H[?12l[?25h[?25le[52;160H6,11          All[6;15H[?12l[?25h[?25l[52;160H5,11          All[5;15H[?12l[?25h[?25l[52;160H4,1           All[4;5H[?12l[?25h[?25l[52;160H3,2           All[3;6H[?12l[?25h[?25l[34mB[m[52;160H3,3           All[3;7H[?12l[?25h[?25l[34mA[m[52;160H3,4           All[3;8H[?12l[?25h[?25l[34ms[m[52;160H3,5           All[3;9H[?12l[?25h[?25l[34mh[m[52;160H3,6           All[3;10H[?12l[?25h[?25l[3;9H[K[52;160H3,5           All[3;9H[?12l[?25h[?25l[3;8H[K[52;160H3,4           All[3;8H[?12l[?25h[?25l[3;7H[K[52;160H3,3           All[3;7H[?12l[?25h[?25l[34ma[m[52;160H3,4           All[3;8H[?12l[?25h[?25l[34ms[m[52;160H3,5           All[3;9H[?12l[?25h[?25l[34mh[m[52;160H3,6           All[3;10H[?12l[?25h[?25l[34m [m[52;160H3,7           All[3;11H[?12l[?25h[?25l[34mS[m[52;160H3,8           All[3;12H[?12l[?25h[?25l[34mc[m[52;160H3,9           All[3;13H[?12l[?25h[?25l[3;12H[K[52;160H3,8           All[3;12H[?12l[?25h[?25l[34mh[m[52;160H3,9           All[3;13H[?12l[?25h[?25l[34me[m[52;160H3,10          All[3;14H[?12l[?25h[?25l[34ml[m[52;160H3,11          All[3;15H[?12l[?25h[?25l[34ml[m[52;160H3,12          All[3;16H[?12l[?25h[?25l[34m [m[52;160H3,13          All[3;17H[?12l[?25h[?25l[34mS[m[52;160H3,14          All[3;18H[?12l[?25h[?25l[34mc[m[52;160H3,15          All[3;19H[?12l[?25h[?25l[34mh[m[52;160H3,16          All[3;20H[?12l[?25h[?25l[3;19H[K[52;160H3,15          All[3;19H[?12l[?25h[?25l[34mr[m[52;160H3,16          All[3;20H[?12l[?25h[?25l[34mi[m[52;160H3,17          All[3;21H[?12l[?25h[?25l[34mp[m[52;160H3,18          All[3;22H[?12l[?25h[?25l[34mt[m[52;160H3,19          All[3;23H[?12l[?25h[?25l[3;22H[K[52;160H3,18          All[3;22H[?12l[?25h[?25l[34m:[m[52;160H3,19          All[3;23H[?12l[?25h[?25l[34m [m[52;160H3,20          All[3;24H[?12l[?25h[?25l[3;23H[K[52;160H3,19          All[3;23H[?12l[?25h[?25l[3;22H[K[52;160H3,18          All[3;22H[?12l[?25h[?25l[34mt[m[52;160H3,19          All[3;23H[?12l[?25h[?25l[34m:[m[52;160H3,20          All[3;24H[?12l[?25h[?25l[34m [m[52;160H3,21          All[3;25H[?12l[?25h[?25l[34mU[m[52;160H3,22          All[3;26H[?12l[?25h[?25l[34ms[m[52;160H3,23          All[3;27H[?12l[?25h[?25l[34me[m[52;160H3,24          All[3;28H[?12l[?25h[?25l[34mr[m[52;160H3,25          All[3;29H[?12l[?25h[?25l[34m [m[52;160H3,26          All[3;30H[?12l[?25h[?25l[34mr[m[52;160H3,27          All[3;31H[?12l[?25h[?25l[34me[m[52;160H3,28          All[3;32H[?12l[?25h[?25l[34ma[m[52;160H3,29          All[3;33H[?12l[?25h[?25l[34md[m[52;160H3,30          All[3;34H[?12l[?25h[?25l[34m [m[52;160H3,31          All[3;35H[?12l[?25h[?25l[34mC[m[52;160H3,32          All[3;36H[?12l[?25h[?25l[34mo[m[52;160H3,33          All[3;37H[?12l[?25h[?25l[34mm[m[52;160H3,34          All[3;38H[?12l[?25h[?25l[34mm[m[52;160H3,35          All[3;39H[?12l[?25h[?25l[34ma[m[52;160H3,36          All[3;40H[?12l[?25h[?25l[34mn[m[52;160H3,37          All[3;41H[?12l[?25h[?25l[34md[m[52;160H3,38          All[3;42H[?12l[?25h[?25l[52;160H3,37          All[3;41H[?12l[?25h[?25l[52;160H3,36          All[3;40H[?12l[?25h[?25l[52;160H3,35          All[3;39H[?12l[?25h[?25l[52;160H3,34          All[3;38H[?12l[?25h[?25l[52;160H3,33          All[3;37H[?12l[?25h[?25l[52;160H3,32          All[3;36H[?12l[?25h[?25l[34mommand[m[3;41H[K[52;160H3,31          All[3;35H[?12l[?25h[?25l[34mcommand[m[52;160H3,32          All[3;36H[?12l[?25h[?25l[52;160H3,33          All[3;37H[?12l[?25h[?25l[52;160H3,34          All[3;38H[?12l[?25h[?25l[52;160H3,35          All[3;39H[?12l[?25h[?25l[52;160H3,36          All[3;40H[?12l[?25h[?25l[52;160H3,37          All[3;41H[?12l[?25h[?25l[52;160H3,38          All[3;42H[?12l[?25h[?25l[34m [m[52;160H3,39          All[3;43H[?12l[?25h[?25l[34mt[m[52;160H3,40          All[3;44H[?12l[?25h[?25l[34mo[m[52;160H3,41          All[3;45H[?12l[?25h[?25l[34m [m[52;160H3,42          All[3;46H[?12l[?25h[?25l[34ma[m[52;160H3,43          All[3;47H[?12l[?25h[?25l[34mc[m[52;160H3,44          All[3;48H[?12l[?25h[?25l[34mc[m[52;160H3,45          All[3;49H[?12l[?25h[?25l[34me[m[52;160H3,46          All[3;50H[?12l[?25h[?25l[34mp[m[52;160H3,47          All[3;51H[?12l[?25h[?25l[34mt[m[52;160H3,48          All[3;52H[?12l[?25h[?25l[34m [m[52;160H3,49          All[3;53H[?12l[?25h[?25l[34md[m[52;160H3,50          All[3;54H[?12l[?25h[?25l[34ma[m[52;160H3,51          All[3;55H[?12l[?25h[?25l[34mt[m[52;160H3,52          All[3;56H[?12l[?25h[?25l[34ma[m[52;160H3,53          All[3;57H[?12l[?25h[?25l[34m [m[52;160H3,54          All[3;58H[?12l[?25h[?25l[34mv[m[52;160H3,55          All[3;59H[?12l[?25h[?25l[34mi[m[52;160H3,56          All[3;60H[?12l[?25h[?25l[34ma[m[52;160H3,57          All[3;61H[?12l[?25h[?25l[34m [m[52;160H3,58          All[3;62H[?12l[?25h[?25l[34mc[m[52;160H3,59          All[3;63H[?12l[?25h[?25l[34mo[m[52;160H3,60          All[3;64H[?12l[?25h[?25l[34mn[m[52;160H3,61          All[3;65H[?12l[?25h[?25l[34ms[m[52;160H3,62          All[3;66H[?12l[?25h[?25l[34mo[m[52;160H3,63          All[3;67H[?12l[?25h[?25l[34ml[m[52;160H3,64          All[3;68H[?12l[?25h[?25l[34me[m[52;160H3,65          All[3;69H[?12l[?25h[?25l[52;160H4,1           All[4;5H[?12l[?25h[?25l[52;160H5,25          All[5;29H[?12l[?25h[?25l[52;160H6,11          All[6;15H[?12l[?25h[?25l[52;160H5,25          All[5;29H[?12l[?25h[?25l[52;160H6,11          All[6;15H[?12l[?25h[?25l
+[33m  7 [m[7;5H[K[52;160H7,1           All[7;5H[?12l[?25h[?25l
+[33m  8 [m[8;5H[K[52;160H8,1           All[8;5H[?12l[?25h[?25le[52;160H8,2           All[8;6H[?12l[?25h[?25lc[52;160H8,3           All[8;7H[?12l[?25h[?25lh[52;160H8,4           All[8;8H[?12l[?25h[?25l[33mecho[m[52;160H8,5           All[8;9H[?12l[?25h[?25l[31m [m[52;160H8,6           All[8;10H[?12l[?25h[?25l[33m"[m[52;160H8,7           All[8;11H[?12l[?25h[?25l[33m"[m[52;160H8,8           All[8;12H[?12l[?25h[?25l[52;160H8,7           All[8;11H[?12l[?25h[?25l[31mE[m[33m"[m[52;160H8,8           All[8;12H[?12l[?25h[?25l[31mn[m[33m"[m[52;160H8,9           All[8;13H[?12l[?25h[?25l[31mt[m[33m"[m[52;160H8,10          All[8;14H[?12l[?25h[?25l[31me[m[33m"[m[52;160H8,11          All[8;15H[?12l[?25h[?25l[31mr[m[33m"[m[52;160H8,12          All[8;16H[?12l[?25h[?25l[31m [m[33m"[m[52;160H8,13          All[8;17H[?12l[?25h[?25l[31my[m[33m"[m[52;160H8,14          All[8;18H[?12l[?25h[?25l[31mo[m[33m"[m[52;160H8,15          All[8;19H[?12l[?25h[?25l[31mu[m[33m"[m[52;160H8,16          All[8;20H[?12l[?25h[?25l[31mr[m[33m"[m[52;160H8,17          All[8;21H[?12l[?25h[?25l[31m [m[33m"[m[52;160H8,18          All[8;22H[?12l[?25h[?25l[31ml[m[33m"[m[52;160H8,19          All[8;23H[?12l[?25h[?25l[31ma[m[33m"[m[52;160H8,20          All[8;24H[?12l[?25h[?25l[31ms[m[33m"[m[52;160H8,21          All[8;25H[?12l[?25h[?25l[31mt[m[33m"[m[52;160H8,22          All[8;26H[?12l[?25h[?25l[31m [m[33m"[m[52;160H8,23          All[8;27H[?12l[?25h[?25l[31mn[m[33m"[m[52;160H8,24          All[8;28H[?12l[?25h[?25l[31ma[m[33m"[m[52;160H8,25          All[8;29H[?12l[?25h[?25l[31mm[m[33m"[m[52;160H8,26          All[8;30H[?12l[?25h[?25l[31me[m[33m"[m[52;160H8,27          All[8;31H[?12l[?25h[?25l[52;160H7,1           All[7;5H[?12l[?25h[?25l[52;160H6,11          All[6;15H[?12l[?25h[?25l[52;160H5,25          All[5;29H[?12l[?25h[?25l[52;160H5,24          All[5;28H[?12l[?25h[?25l[52;160H5,23          All[5;27H[?12l[?25h[?25l[52;160H5,22          All[5;26H[?12l[?25h[?25l[52;160H5,21          All[5;25H[?12l[?25h[?25l[52;160H5,20          All[5;24H[?12l[?25h[?25l[52;160H5,19          All[5;23H[?12l[?25h[?25l[52;160H5,18          All[5;22H[?12l[?25h[?25l[52;160H5,17          All[5;21H[?12l[?25h[?25l[52;160H5,18          All[5;22H[?12l[?25h[?25l[31mfname: [m[33m"[m[52;160H5,19          All[5;23H[?12l[?25h[?25l[31miname: [m[33m"[m[52;160H5,20          All[5;24H[?12l[?25h[?25l[31mrname: [m[33m"[m[52;160H5,21          All[5;25H[?12l[?25h[?25l[31msname: [m[33m"[m[52;160H5,22          All[5;26H[?12l[?25h[?25l[31mtname: [m[33m"[m[52;160H5,23          All[5;27H[?12l[?25h[?25l[31m name: [m[33m"[m[52;160H5,24          All[5;28H[?12l[?25h[?25l[52;160H6,11          All[6;15H[?12l[?25h[?25l[52;160H7,1           All[7;5H[?12l[?25h[?25l[52;160H8,24          All[8;28H[?12l[?25h[?25l[52;160H8,25          All[8;29H[?12l[?25h[?25l[52;160H8,26          All[8;30H[?12l[?25h[?25l[52;160H8,27          All[8;31H[?12l[?25h[?25l[52;160H8,28          All[8;32H[?12l[?25h[?25l
+[33m  9 [m[9;5H[K[52;160H9,1           All[9;5H[?12l[?25h[?25lr[52;160H9,2           All[9;6H[?12l[?25h[?25le[52;160H9,3           All[9;7H[?12l[?25h[?25la[52;160H9,4           All[9;8H[?12l[?25h[?25l[33mread[m[52;160H9,5           All[9;9H[?12l[?25h[?25l[52;160H9,6           All[9;10H[?12l[?25h[?25le[52;160H9,7           All[9;11H[?12l[?25h[?25lc[52;160H9,8           All[9;12H[?12l[?25h[?25lh[52;160H9,9           All[9;13H[?12l[?25h[?25l[9;12H[K[52;160H9,8           All[9;12H[?12l[?25h[?25l[9;11H[K[52;160H9,7           All[9;11H[?12l[?25h[?25l[9;10H[K[52;160H9,6           All[9;10H[?12l[?25h[?25lk[52;160H9,7           All[9;11H[?12l[?25h[?25ll[52;160H9,8           All[9;12H[?12l[?25h[?25l[9;11H[K[52;160H9,7           All[9;11H[?12l[?25h[?25ll[52;160H9,8           All[9;12H[?12l[?25h[?25l[9;11H[K[52;160H9,7           All[9;11H[?12l[?25h[?25l[9;10H[K[52;160H9,6           All[9;10H[?12l[?25h[?25ll[52;160H9,7           All[9;11H[?12l[?25h[?25ln[52;160H9,8           All[9;12H[?12l[?25h[?25la[52;160H9,9           All[9;13H[?12l[?25h[?25lm[52;160H9,10          All[9;14H[?12l[?25h[?25le[52;160H9,11          All[9;15H[?12l[?25h[?25l
+[33m 10 [m[10;5H[K[52;160H10,1          All[10;5H[?12l[?25h[?25l
+[33m 11 [m[11;5H[K[52;160H11,1          All[11;5H[?12l[?25h[?25le[52;160H11,2          All[11;6H[?12l[?25h[?25lc[52;160H11,3          All[11;7H[?12l[?25h[?25lh[52;160H11,4          All[11;8H[?12l[?25h[?25l[33mecho[m[52;160H11,5          All[11;9H[?12l[?25h[?25l[31m [m[52;160H11,6          All[11;10H[?12l[?25h[?25l[33m"[m[52;160H11,7          All[11;11H[?12l[?25h[?25l[33m"[m[52;160H11,8          All[11;12H[?12l[?25h[?25l[52;160H11,7          All[11;11H[?12l[?25h[?25l[31mE[m[33m"[m[52;160H11,8          All[11;12H[?12l[?25h[?25l[31mn[m[33m"[m[52;160H11,9          All[11;13H[?12l[?25h[?25l[31mt[m[33m"[m[52;160H11,10         All[11;14H[?12l[?25h[?25l[31me[m[33m"[m[52;160H11,11         All[11;15H[?12l[?25h[?25l[31mr[m[33m"[m[52;160H11,12         All[11;16H[?12l[?25h[?25l[31m [m[33m"[m[52;160H11,13         All[11;17H[?12l[?25h[?25l[31my[m[33m"[m[52;160H11,14         All[11;18H[?12l[?25h[?25l[31mo[m[33m"[m[52;160H11,15         All[11;19H[?12l[?25h[?25l[31mu[m[33m"[m[52;160H11,16         All[11;20H[?12l[?25h[?25l[31mr[m[33m"[m[52;160H11,17         All[11;21H[?12l[?25h[?25l[31m [m[33m"[m[52;160H11,18         All[11;22H[?12l[?25h[?25l[31mC[m[33m"[m[52;160H11,19         All[11;23H[?12l[?25h[?25l[31mi[m[33m"[m[52;160H11,20         All[11;24H[?12l[?25h[?25l[31mt[m[33m"[m[52;160H11,21         All[11;25H[?12l[?25h[?25l[31my[m[33m"[m[52;160H11,22         All[11;26H[?12l[?25h[?25l[52;160H10,1          All[10;5H[?12l[?25h[?25l[52;160H9,11          All[9;15H[?12l[?25h[?25l[52;160H8,22          All[8;26H[?12l[?25h[?25l[52;160H8,23          All[8;27H[?12l[?25h[?25l[52;160H8,24          All[8;28H[?12l[?25h[?25l[31mame[m[33m"[m[8;31H[K[52;160H8,23          All[8;27H[?12l[?25h[?25l[31mName[m[33m"[m[52;160H8,24          All[8;28H[?12l[?25h[?25l[52;160H8,23          All[8;27H[?12l[?25h[?25l[52;160H8,22          All[8;26H[?12l[?25h[?25l[52;160H8,21          All[8;25H[?12l[?25h[?25l[52;160H8,20          All[8;24H[?12l[?25h[?25l[52;160H8,19          All[8;23H[?12l[?25h[?25l[31mast Name[m[33m"[m[8;31H[K[52;160H8,18          All[8;22H[?12l[?25h[?25l[31mLast Name[m[33m"[m[52;160H8,19          All[8;23H[?12l[?25h[?25l[52;160H7,1           All[7;5H[?12l[?25h[?25l[52;160H6,11          All[6;15H[?12l[?25h[?25l[52;160H5,19          All[5;23H[?12l[?25h[?25l[31mirst name: [m[33m"[m[5;34H[K[52;160H5,18          All[5;22H[?12l[?25h[?25l[31mFirst name: [m[33m"[m[52;160H5,19          All[5;23H[?12l[?25h[?25l[52;160H5,20          All[5;24H[?12l[?25h[?25l[52;160H5,21          All[5;25H[?12l[?25h[?25l[52;160H5,22          All[5;26H[?12l[?25h[?25l[52;160H5,23          All[5;27H[?12l[?25h[?25l[52;160H5,24          All[5;28H[?12l[?25h[?25l[52;160H5,25          All[5;29H[?12l[?25h[?25l[31mame: [m[33m"[m[5;34H[K[52;160H5,24          All[5;28H[?12l[?25h[?25l[31mName: [m[33m"[m[52;160H5,25          All[5;29H[?12l[?25h[?25l[52;160H6,11          All[6;15H[?12l[?25h[?25l[52;160H7,1           All[7;5H[?12l[?25h[?25l[52;160H8,25          All[8;29H[?12l[?25h[?25l[52;160H9,11          All[9;15H[?12l[?25h[?25l[52;160H10,1          All[10;5H[?12l[?25h[?25l[52;160H11,23         All[11;27H[?12l[?25h[?25l
+[33m 12 [m[12;5H[K[52;160H12,1          All[12;5H[?12l[?25h[?25lr[52;160H12,2          All[12;6H[?12l[?25h[?25le[52;160H12,3          All[12;7H[?12l[?25h[?25la[52;160H12,4          All[12;8H[?12l[?25h[?25l[33mread[m[52;160H12,5          All[12;9H[?12l[?25h[?25l[52;160H12,6          All[12;10H[?12l[?25h[?25lc[52;160H12,7          All[12;11H[?12l[?25h[?25li[52;160H12,8          All[12;12H[?12l[?25h[?25lt[52;160H12,9          All[12;13H[?12l[?25h[?25ly[52;160H12,10         All[12;14H[?12l[?25h[?25l
+[33m 13 [m[13;5H[K[52;160H13,1          All[13;5H[?12l[?25h[?25l
+[33m 14 [m[14;5H[K[52;160H14,1          All[14;5H[?12l[?25h[?25le[52;160H14,2          All[14;6H[?12l[?25h[?25lc[52;160H14,3          All[14;7H[?12l[?25h[?25lh[52;160H14,4          All[14;8H[?12l[?25h[?25l[33mecho[m[52;160H14,5          All[14;9H[?12l[?25h[?25l[31m [m[52;160H14,6          All[14;10H[?12l[?25h[?25l[33m"[m[52;160H14,7          All[14;11H[?12l[?25h[?25l[33m"[m[52;160H14,8          All[14;12H[?12l[?25h[?25l[52;160H14,7          All[14;11H[?12l[?25h[?25l[31mM[m[33m"[m[52;160H14,8          All[14;12H[?12l[?25h[?25l[31my[m[33m"[m[52;160H14,9          All[14;13H[?12l[?25h[?25l[31m [m[33m"[m[52;160H14,10         All[14;14H[?12l[?25h[?25l[31mn[m[33m"[m[52;160H14,11         All[14;15H[?12l[?25h[?25l[31ma[m[33m"[m[52;160H14,12         All[14;16H[?12l[?25h[?25l[31mm[m[33m"[m[52;160H14,13         All[14;17H[?12l[?25h[?25l[31me[m[33m"[m[52;160H14,14         All[14;18H[?12l[?25h[?25l[31m [m[33m"[m[52;160H14,15         All[14;19H[?12l[?25h[?25l[31mi[m[33m"[m[52;160H14,16         All[14;20H[?12l[?25h[?25l[31ms[m[33m"[m[52;160H14,17         All[14;21H[?12l[?25h[?25l[31m [m[33m"[m[52;160H14,18         All[14;22H[?12l[?25h[?25l[31m$[m[33m"[m[52;160H14,19         All[14;23H[?12l[?25h[?25l[35m$f[m[33m"[m[52;160H14,20         All[14;24H[?12l[?25h[?25l[35mn[m[33m"[m[52;160H14,21         All[14;25H[?12l[?25h[?25l[35ma[m[33m"[m[52;160H14,22         All[14;26H[?12l[?25h[?25l[35mm[m[33m"[m[52;160H14,23         All[14;27H[?12l[?25h[?25l[31m [m[33m"[m[52;160H14,24         All[14;28H[?12l[?25h[?25l[33m"[m[14;28H[K[52;160H14,23         All[14;27H[?12l[?25h[?25l[35me[m[33m"[m[52;160H14,24         All[14;28H[?12l[?25h[?25l[31m [m[33m"[m[52;160H14,25         All[14;29H[?12l[?25h[?25l[31m$[m[33m"[m[52;160H14,26         All[14;30H[?12l[?25h[?25l[35m$l[m[33m"[m[52;160H14,27         All[14;31H[?12l[?25h[?25l[35mn[m[33m"[m[52;160H14,28         All[14;32H[?12l[?25h[?25l[35ma[m[33m"[m[52;160H14,29         All[14;33H[?12l[?25h[?25l[35mm[m[33m"[m[52;160H14,30         All[14;34H[?12l[?25h[?25l[35me[m[33m"[m[52;160H14,31         All[14;35H[?12l[?25h[?25l[31m [m[33m"[m[52;160H14,32         All[14;36H[?12l[?25h[?25l[31mf[m[33m"[m[52;160H14,33         All[14;37H[?12l[?25h[?25l[31mr[m[33m"[m[52;160H14,34         All[14;38H[?12l[?25h[?25l[31mo[m[33m"[m[52;160H14,35         All[14;39H[?12l[?25h[?25l[31mm[m[33m"[m[52;160H14,36         All[14;40H[?12l[?25h[?25l[31m [m[33m"[m[52;160H14,37         All[14;41H[?12l[?25h[?25l[31m$[m[33m"[m[52;160H14,38         All[14;42H[?12l[?25h[?25l[35m$c[m[33m"[m[52;160H14,39         All[14;43H[?12l[?25h[?25l[35mi[m[33m"[m[52;160H14,40         All[14;44H[?12l[?25h[?25l[35mt[m[33m"[m[52;160H14,41         All[14;45H[?12l[?25h[?25l[35my[m[33m"[m[52;160H14,42         All[14;46H[?12l[?25h[?25l[52;160H14,43         All[14;47H[?12l[?25h[?25l[52;160H13,1          All[13;5H[?12l[?25h[?25l[14;5H[K[15;1H[33m 15 echo[m[31m [m[33m"[m[31mMy name is [m[35m$fname[m[31m [m[35m$lname[m[31m from [m[35m$city[m[33m"[m[15;47H[K[52;160H14,1          All[14;5H[?12l[?25h[?25le[52;160H14,2          All[14;6H[?12l[?25h[?25lc[52;160H14,3          All[14;7H[?12l[?25h[?25lh[52;160H14,4          All[14;8H[?12l[?25h[?25l[33mecho[m[52;160H14,5          All[14;9H[?12l[?25h[?25l[31m [m[52;160H14,6          All[14;10H[?12l[?25h[?25l[33m"[m[15;5H[31mecho[m[52;160H14,7          All[14;11H[?12l[?25h[?25l[33m"
+ 15 echo[m[52;160H14,8          All[14;12H[?12l[?25h[?25l[52;160H14,7          All[14;11H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,8          All[14;12H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,9          All[14;13H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,10         All[14;14H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,11         All[14;15H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,12         All[14;16H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,13         All[14;17H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,14         All[14;18H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,15         All[14;19H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,16         All[14;20H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,17         All[14;21H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,18         All[14;22H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,19         All[14;23H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,20         All[14;24H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,21         All[14;25H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,22         All[14;26H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,23         All[14;27H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,24         All[14;28H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,25         All[14;29H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,26         All[14;30H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,27         All[14;31H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,28         All[14;32H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,29         All[14;33H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,30         All[14;34H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,31         All[14;35H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,32         All[14;36H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,33         All[14;37H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,34         All[14;38H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,35         All[14;39H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,36         All[14;40H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,37         All[14;41H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,38         All[14;42H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,39         All[14;43H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,40         All[14;44H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,41         All[14;45H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,42         All[14;46H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,43         All[14;47H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H14,44         All[14;48H[?12l[?25h[?25l[33m"[m[14;48H[K[52;160H14,43         All[14;47H[?12l[?25h[?25l[33m"[m[14;47H[K[52;160H14,42         All[14;46H[?12l[?25h[?25l[52;160H14,43         All[14;47H[?12l[?25h[?25l[52;160H15,43         All[15;47H[?12l[?25h[?25l
+[33m 16 [m[16;5H[K[52;160H16,1          All[16;5H[?12l[?25h[?25le[52;160H16,2          All[16;6H[?12l[?25h[?25lc[52;160H16,3          All[16;7H[?12l[?25h[?25lh[52;160H16,4          All[16;8H[?12l[?25h[?25l[33mecho[m[52;160H16,5          All[16;9H[?12l[?25h[?25l[31m [m[52;160H16,6          All[16;10H[?12l[?25h[?25l[33m"[m[52;160H16,7          All[16;11H[?12l[?25h[?25l[33m"[m[52;160H16,8          All[16;12H[?12l[?25h[?25l[52;160H16,7          All[16;11H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H16,8          All[16;12H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H16,9          All[16;13H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H16,10         All[16;14H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H16,11         All[16;15H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H16,12         All[16;16H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H16,13         All[16;17H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H16,14         All[16;18H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H16,15         All[16;19H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H16,16         All[16;20H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H16,17         All[16;21H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H16,18         All[16;22H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H16,19         All[16;23H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H16,20         All[16;24H[?12l[?25h[?25l[31m-[m[33m"[m[52;160H16,21         All[16;25H[?12l[?25h[?25l[

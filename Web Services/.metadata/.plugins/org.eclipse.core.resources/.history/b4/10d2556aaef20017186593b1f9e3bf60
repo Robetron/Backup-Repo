@@ -1,0 +1,49 @@
+package com.psl;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class OperationsTest1 {
+
+	@Test
+	public void testSumOfListListOfInteger() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testSumOfListIntegerArray() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testProductOfListListOfInteger() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testProductOfListIntegerArray() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDivisibleByListOfIntegerInt() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testDivisibleByIntIntegerArray() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testMultiplesOfListOfIntegerInt() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	public void testMultiplesOfIntIntegerArray() {
+		fail("Not yet implemented");
+	}
+
+}

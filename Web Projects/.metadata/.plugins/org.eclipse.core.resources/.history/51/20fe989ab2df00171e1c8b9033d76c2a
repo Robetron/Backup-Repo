@@ -1,0 +1,34 @@
+package com.psl;
+
+public class Ticket {
+	private int tNo;
+	private Passenger passenger;
+	private Train train;
+	public Ticket() {
+	}
+	public Ticket(int tNo, Passenger passenger, Train train) {
+		this.tNo = tNo;
+		this.passenger = passenger;
+		this.train = train;
+	}
+	public int gettNo() {
+		return tNo;
+	}
+	public void settNo(int tNo) {
+		this.tNo = tNo;
+	}
+	public Passenger getPassenger() {
+		return passenger;
+	}
+	public void setPassenger(Passenger passenger) {
+		this.passenger = passenger;
+	}
+	public Train getTrain() {
+		return train;
+	}
+	public void setTrain(Train train) {
+		this.train = train;
+	}
+	
+	
+}
